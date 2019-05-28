@@ -110,19 +110,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named exp_test
-
-# Build rule for target.
-exp_test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 exp_test
-.PHONY : exp_test
-
-# fast build rule for target.
-exp_test/fast:
-	$(MAKE) -f CMakeFiles\exp_test.dir\build.make CMakeFiles/exp_test.dir/build
-.PHONY : exp_test/fast
-
-#=============================================================================
 # Target rules for targets named typeof_test
 
 # Build rule for target.
@@ -136,6 +123,19 @@ typeof_test/fast:
 .PHONY : typeof_test/fast
 
 #=============================================================================
+# Target rules for targets named namespace_test
+
+# Build rule for target.
+namespace_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 namespace_test
+.PHONY : namespace_test
+
+# fast build rule for target.
+namespace_test/fast:
+	$(MAKE) -f CMakeFiles\namespace_test.dir\build.make CMakeFiles/namespace_test.dir/build
+.PHONY : namespace_test/fast
+
+#=============================================================================
 # Target rules for targets named rom_array3_test
 
 # Build rule for target.
@@ -147,6 +147,32 @@ rom_array3_test: cmake_check_build_system
 rom_array3_test/fast:
 	$(MAKE) -f CMakeFiles\rom_array3_test.dir\build.make CMakeFiles/rom_array3_test.dir/build
 .PHONY : rom_array3_test/fast
+
+#=============================================================================
+# Target rules for targets named Number_test
+
+# Build rule for target.
+Number_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Number_test
+.PHONY : Number_test
+
+# fast build rule for target.
+Number_test/fast:
+	$(MAKE) -f CMakeFiles\Number_test.dir\build.make CMakeFiles/Number_test.dir/build
+.PHONY : Number_test/fast
+
+#=============================================================================
+# Target rules for targets named namespace_test2
+
+# Build rule for target.
+namespace_test2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 namespace_test2
+.PHONY : namespace_test2
+
+# fast build rule for target.
+namespace_test2/fast:
+	$(MAKE) -f CMakeFiles\namespace_test2.dir\build.make CMakeFiles/namespace_test2.dir/build
+.PHONY : namespace_test2/fast
 
 #=============================================================================
 # Target rules for targets named AandB
@@ -175,6 +201,84 @@ cpp_test123/fast:
 .PHONY : cpp_test123/fast
 
 #=============================================================================
+# Target rules for targets named class_test
+
+# Build rule for target.
+class_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 class_test
+.PHONY : class_test
+
+# fast build rule for target.
+class_test/fast:
+	$(MAKE) -f CMakeFiles\class_test.dir\build.make CMakeFiles/class_test.dir/build
+.PHONY : class_test/fast
+
+#=============================================================================
+# Target rules for targets named template_class
+
+# Build rule for target.
+template_class: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 template_class
+.PHONY : template_class
+
+# fast build rule for target.
+template_class/fast:
+	$(MAKE) -f CMakeFiles\template_class.dir\build.make CMakeFiles/template_class.dir/build
+.PHONY : template_class/fast
+
+#=============================================================================
+# Target rules for targets named rom_array_test
+
+# Build rule for target.
+rom_array_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 rom_array_test
+.PHONY : rom_array_test
+
+# fast build rule for target.
+rom_array_test/fast:
+	$(MAKE) -f CMakeFiles\rom_array_test.dir\build.make CMakeFiles/rom_array_test.dir/build
+.PHONY : rom_array_test/fast
+
+#=============================================================================
+# Target rules for targets named template_test
+
+# Build rule for target.
+template_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 template_test
+.PHONY : template_test
+
+# fast build rule for target.
+template_test/fast:
+	$(MAKE) -f CMakeFiles\template_test.dir\build.make CMakeFiles/template_test.dir/build
+.PHONY : template_test/fast
+
+#=============================================================================
+# Target rules for targets named rom_object_test
+
+# Build rule for target.
+rom_object_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 rom_object_test
+.PHONY : rom_object_test
+
+# fast build rule for target.
+rom_object_test/fast:
+	$(MAKE) -f CMakeFiles\rom_object_test.dir\build.make CMakeFiles/rom_object_test.dir/build
+.PHONY : rom_object_test/fast
+
+#=============================================================================
+# Target rules for targets named rom_test
+
+# Build rule for target.
+rom_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 rom_test
+.PHONY : rom_test
+
+# fast build rule for target.
+rom_test/fast:
+	$(MAKE) -f CMakeFiles\rom_test.dir\build.make CMakeFiles/rom_test.dir/build
+.PHONY : rom_test/fast
+
+#=============================================================================
 # Target rules for targets named yunsuan
 
 # Build rule for target.
@@ -201,30 +305,17 @@ exp_my_test/fast:
 .PHONY : exp_my_test/fast
 
 #=============================================================================
-# Target rules for targets named rom_array_test
+# Target rules for targets named exp_test
 
 # Build rule for target.
-rom_array_test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 rom_array_test
-.PHONY : rom_array_test
+exp_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 exp_test
+.PHONY : exp_test
 
 # fast build rule for target.
-rom_array_test/fast:
-	$(MAKE) -f CMakeFiles\rom_array_test.dir\build.make CMakeFiles/rom_array_test.dir/build
-.PHONY : rom_array_test/fast
-
-#=============================================================================
-# Target rules for targets named rom_test
-
-# Build rule for target.
-rom_test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 rom_test
-.PHONY : rom_test
-
-# fast build rule for target.
-rom_test/fast:
-	$(MAKE) -f CMakeFiles\rom_test.dir\build.make CMakeFiles/rom_test.dir/build
-.PHONY : rom_test/fast
+exp_test/fast:
+	$(MAKE) -f CMakeFiles\exp_test.dir\build.make CMakeFiles/exp_test.dir/build
+.PHONY : exp_test/fast
 
 #=============================================================================
 # Target rules for targets named file_struct_io
@@ -409,19 +500,6 @@ extends_test/fast:
 .PHONY : extends_test/fast
 
 #=============================================================================
-# Target rules for targets named class_test
-
-# Build rule for target.
-class_test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 class_test
-.PHONY : class_test
-
-# fast build rule for target.
-class_test/fast:
-	$(MAKE) -f CMakeFiles\class_test.dir\build.make CMakeFiles/class_test.dir/build
-.PHONY : class_test/fast
-
-#=============================================================================
 # Target rules for targets named mm
 
 # Build rule for target.
@@ -550,19 +628,6 @@ Cos_test: cmake_check_build_system
 Cos_test/fast:
 	$(MAKE) -f CMakeFiles\Cos_test.dir\build.make CMakeFiles/Cos_test.dir/build
 .PHONY : Cos_test/fast
-
-#=============================================================================
-# Target rules for targets named Number_test
-
-# Build rule for target.
-Number_test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Number_test
-.PHONY : Number_test
-
-# fast build rule for target.
-Number_test/fast:
-	$(MAKE) -f CMakeFiles\Number_test.dir\build.make CMakeFiles/Number_test.dir/build
-.PHONY : Number_test/fast
 
 #=============================================================================
 # Target rules for targets named Lambda_test
@@ -1265,6 +1330,60 @@ mm.cpp.s:
 	$(MAKE) -f CMakeFiles\mm.dir\build.make CMakeFiles/mm.dir/mm.cpp.s
 .PHONY : mm.cpp.s
 
+namespace_test.obj: namespace_test.cpp.obj
+
+.PHONY : namespace_test.obj
+
+# target to build an object file
+namespace_test.cpp.obj:
+	$(MAKE) -f CMakeFiles\namespace_test.dir\build.make CMakeFiles/namespace_test.dir/namespace_test.cpp.obj
+.PHONY : namespace_test.cpp.obj
+
+namespace_test.i: namespace_test.cpp.i
+
+.PHONY : namespace_test.i
+
+# target to preprocess a source file
+namespace_test.cpp.i:
+	$(MAKE) -f CMakeFiles\namespace_test.dir\build.make CMakeFiles/namespace_test.dir/namespace_test.cpp.i
+.PHONY : namespace_test.cpp.i
+
+namespace_test.s: namespace_test.cpp.s
+
+.PHONY : namespace_test.s
+
+# target to generate assembly for a file
+namespace_test.cpp.s:
+	$(MAKE) -f CMakeFiles\namespace_test.dir\build.make CMakeFiles/namespace_test.dir/namespace_test.cpp.s
+.PHONY : namespace_test.cpp.s
+
+namespace_test2.obj: namespace_test2.cpp.obj
+
+.PHONY : namespace_test2.obj
+
+# target to build an object file
+namespace_test2.cpp.obj:
+	$(MAKE) -f CMakeFiles\namespace_test2.dir\build.make CMakeFiles/namespace_test2.dir/namespace_test2.cpp.obj
+.PHONY : namespace_test2.cpp.obj
+
+namespace_test2.i: namespace_test2.cpp.i
+
+.PHONY : namespace_test2.i
+
+# target to preprocess a source file
+namespace_test2.cpp.i:
+	$(MAKE) -f CMakeFiles\namespace_test2.dir\build.make CMakeFiles/namespace_test2.dir/namespace_test2.cpp.i
+.PHONY : namespace_test2.cpp.i
+
+namespace_test2.s: namespace_test2.cpp.s
+
+.PHONY : namespace_test2.s
+
+# target to generate assembly for a file
+namespace_test2.cpp.s:
+	$(MAKE) -f CMakeFiles\namespace_test2.dir\build.make CMakeFiles/namespace_test2.dir/namespace_test2.cpp.s
+.PHONY : namespace_test2.cpp.s
+
 package_test.obj: package_test.cpp.obj
 
 .PHONY : package_test.obj
@@ -1454,6 +1573,33 @@ rom_array_test.cpp.s:
 	$(MAKE) -f CMakeFiles\rom_array_test.dir\build.make CMakeFiles/rom_array_test.dir/rom_array_test.cpp.s
 .PHONY : rom_array_test.cpp.s
 
+rom_object_test.obj: rom_object_test.cpp.obj
+
+.PHONY : rom_object_test.obj
+
+# target to build an object file
+rom_object_test.cpp.obj:
+	$(MAKE) -f CMakeFiles\rom_object_test.dir\build.make CMakeFiles/rom_object_test.dir/rom_object_test.cpp.obj
+.PHONY : rom_object_test.cpp.obj
+
+rom_object_test.i: rom_object_test.cpp.i
+
+.PHONY : rom_object_test.i
+
+# target to preprocess a source file
+rom_object_test.cpp.i:
+	$(MAKE) -f CMakeFiles\rom_object_test.dir\build.make CMakeFiles/rom_object_test.dir/rom_object_test.cpp.i
+.PHONY : rom_object_test.cpp.i
+
+rom_object_test.s: rom_object_test.cpp.s
+
+.PHONY : rom_object_test.s
+
+# target to generate assembly for a file
+rom_object_test.cpp.s:
+	$(MAKE) -f CMakeFiles\rom_object_test.dir\build.make CMakeFiles/rom_object_test.dir/rom_object_test.cpp.s
+.PHONY : rom_object_test.cpp.s
+
 rom_test.obj: rom_test.cpp.obj
 
 .PHONY : rom_test.obj
@@ -1507,6 +1653,60 @@ structure_test.s: structure_test.cpp.s
 structure_test.cpp.s:
 	$(MAKE) -f CMakeFiles\structure_test.dir\build.make CMakeFiles/structure_test.dir/structure_test.cpp.s
 .PHONY : structure_test.cpp.s
+
+template_class.obj: template_class.cpp.obj
+
+.PHONY : template_class.obj
+
+# target to build an object file
+template_class.cpp.obj:
+	$(MAKE) -f CMakeFiles\template_class.dir\build.make CMakeFiles/template_class.dir/template_class.cpp.obj
+.PHONY : template_class.cpp.obj
+
+template_class.i: template_class.cpp.i
+
+.PHONY : template_class.i
+
+# target to preprocess a source file
+template_class.cpp.i:
+	$(MAKE) -f CMakeFiles\template_class.dir\build.make CMakeFiles/template_class.dir/template_class.cpp.i
+.PHONY : template_class.cpp.i
+
+template_class.s: template_class.cpp.s
+
+.PHONY : template_class.s
+
+# target to generate assembly for a file
+template_class.cpp.s:
+	$(MAKE) -f CMakeFiles\template_class.dir\build.make CMakeFiles/template_class.dir/template_class.cpp.s
+.PHONY : template_class.cpp.s
+
+template_test.obj: template_test.cpp.obj
+
+.PHONY : template_test.obj
+
+# target to build an object file
+template_test.cpp.obj:
+	$(MAKE) -f CMakeFiles\template_test.dir\build.make CMakeFiles/template_test.dir/template_test.cpp.obj
+.PHONY : template_test.cpp.obj
+
+template_test.i: template_test.cpp.i
+
+.PHONY : template_test.i
+
+# target to preprocess a source file
+template_test.cpp.i:
+	$(MAKE) -f CMakeFiles\template_test.dir\build.make CMakeFiles/template_test.dir/template_test.cpp.i
+.PHONY : template_test.cpp.i
+
+template_test.s: template_test.cpp.s
+
+.PHONY : template_test.s
+
+# target to generate assembly for a file
+template_test.cpp.s:
+	$(MAKE) -f CMakeFiles\template_test.dir\build.make CMakeFiles/template_test.dir/template_test.cpp.s
+.PHONY : template_test.cpp.s
 
 time_test.obj: time_test.cpp.obj
 
@@ -1595,16 +1795,23 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... exp_test
 	@echo ... typeof_test
+	@echo ... namespace_test
 	@echo ... rom_array3_test
+	@echo ... Number_test
+	@echo ... namespace_test2
 	@echo ... AandB
 	@echo ... rebuild_cache
 	@echo ... cpp_test123
+	@echo ... class_test
+	@echo ... template_class
+	@echo ... rom_array_test
+	@echo ... template_test
+	@echo ... rom_object_test
+	@echo ... rom_test
 	@echo ... yunsuan
 	@echo ... exp_my_test
-	@echo ... rom_array_test
-	@echo ... rom_test
+	@echo ... exp_test
 	@echo ... file_struct_io
 	@echo ... file_write2
 	@echo ... file_write
@@ -1620,7 +1827,6 @@ help:
 	@echo ... reload_test2
 	@echo ... reload_test
 	@echo ... extends_test
-	@echo ... class_test
 	@echo ... mm
 	@echo ... Array_test
 	@echo ... structure_test
@@ -1631,7 +1837,6 @@ help:
 	@echo ... point_test
 	@echo ... char_test.cpp
 	@echo ... Cos_test
-	@echo ... Number_test
 	@echo ... Lambda_test
 	@echo ... loop_test
 	@echo ... AandB.obj
@@ -1709,6 +1914,12 @@ help:
 	@echo ... mm.obj
 	@echo ... mm.i
 	@echo ... mm.s
+	@echo ... namespace_test.obj
+	@echo ... namespace_test.i
+	@echo ... namespace_test.s
+	@echo ... namespace_test2.obj
+	@echo ... namespace_test2.i
+	@echo ... namespace_test2.s
 	@echo ... package_test.obj
 	@echo ... package_test.i
 	@echo ... package_test.s
@@ -1730,12 +1941,21 @@ help:
 	@echo ... rom_array_test.obj
 	@echo ... rom_array_test.i
 	@echo ... rom_array_test.s
+	@echo ... rom_object_test.obj
+	@echo ... rom_object_test.i
+	@echo ... rom_object_test.s
 	@echo ... rom_test.obj
 	@echo ... rom_test.i
 	@echo ... rom_test.s
 	@echo ... structure_test.obj
 	@echo ... structure_test.i
 	@echo ... structure_test.s
+	@echo ... template_class.obj
+	@echo ... template_class.i
+	@echo ... template_class.s
+	@echo ... template_test.obj
+	@echo ... template_test.i
+	@echo ... template_test.s
 	@echo ... time_test.obj
 	@echo ... time_test.i
 	@echo ... time_test.s
