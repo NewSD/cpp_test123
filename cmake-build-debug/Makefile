@@ -123,6 +123,19 @@ file_io_test/fast:
 .PHONY : file_io_test/fast
 
 #=============================================================================
+# Target rules for targets named exp_test
+
+# Build rule for target.
+exp_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 exp_test
+.PHONY : exp_test
+
+# fast build rule for target.
+exp_test/fast:
+	$(MAKE) -f CMakeFiles\exp_test.dir\build.make CMakeFiles/exp_test.dir/build
+.PHONY : exp_test/fast
+
+#=============================================================================
 # Target rules for targets named AandB
 
 # Build rule for target.
@@ -147,6 +160,45 @@ cpp_test123: cmake_check_build_system
 cpp_test123/fast:
 	$(MAKE) -f CMakeFiles\cpp_test123.dir\build.make CMakeFiles/cpp_test123.dir/build
 .PHONY : cpp_test123/fast
+
+#=============================================================================
+# Target rules for targets named file_read
+
+# Build rule for target.
+file_read: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 file_read
+.PHONY : file_read
+
+# fast build rule for target.
+file_read/fast:
+	$(MAKE) -f CMakeFiles\file_read.dir\build.make CMakeFiles/file_read.dir/build
+.PHONY : file_read/fast
+
+#=============================================================================
+# Target rules for targets named yunsuan
+
+# Build rule for target.
+yunsuan: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 yunsuan
+.PHONY : yunsuan
+
+# fast build rule for target.
+yunsuan/fast:
+	$(MAKE) -f CMakeFiles\yunsuan.dir\build.make CMakeFiles/yunsuan.dir/build
+.PHONY : yunsuan/fast
+
+#=============================================================================
+# Target rules for targets named exp_my_test
+
+# Build rule for target.
+exp_my_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 exp_my_test
+.PHONY : exp_my_test
+
+# fast build rule for target.
+exp_my_test/fast:
+	$(MAKE) -f CMakeFiles\exp_my_test.dir\build.make CMakeFiles/exp_my_test.dir/build
+.PHONY : exp_my_test/fast
 
 #=============================================================================
 # Target rules for targets named file_struct_io
@@ -188,19 +240,6 @@ file_write2/fast:
 .PHONY : file_write2/fast
 
 #=============================================================================
-# Target rules for targets named package_test
-
-# Build rule for target.
-package_test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 package_test
-.PHONY : package_test
-
-# fast build rule for target.
-package_test/fast:
-	$(MAKE) -f CMakeFiles\package_test.dir\build.make CMakeFiles/package_test.dir/build
-.PHONY : package_test/fast
-
-#=============================================================================
 # Target rules for targets named abstract_test
 
 # Build rule for target.
@@ -214,17 +253,17 @@ abstract_test/fast:
 .PHONY : abstract_test/fast
 
 #=============================================================================
-# Target rules for targets named file_read
+# Target rules for targets named package_test
 
 # Build rule for target.
-file_read: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 file_read
-.PHONY : file_read
+package_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 package_test
+.PHONY : package_test
 
 # fast build rule for target.
-file_read/fast:
-	$(MAKE) -f CMakeFiles\file_read.dir\build.make CMakeFiles/file_read.dir/build
-.PHONY : file_read/fast
+package_test/fast:
+	$(MAKE) -f CMakeFiles\package_test.dir\build.make CMakeFiles/package_test.dir/build
+.PHONY : package_test/fast
 
 #=============================================================================
 # Target rules for targets named time_test
@@ -500,19 +539,6 @@ Lambda_test/fast:
 .PHONY : Lambda_test/fast
 
 #=============================================================================
-# Target rules for targets named yunsuan
-
-# Build rule for target.
-yunsuan: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 yunsuan
-.PHONY : yunsuan
-
-# fast build rule for target.
-yunsuan/fast:
-	$(MAKE) -f CMakeFiles\yunsuan.dir\build.make CMakeFiles/yunsuan.dir/build
-.PHONY : yunsuan/fast
-
-#=============================================================================
 # Target rules for targets named loop_test
 
 # Build rule for target.
@@ -767,6 +793,60 @@ data_abstract_test.s: data_abstract_test.cpp.s
 data_abstract_test.cpp.s:
 	$(MAKE) -f CMakeFiles\data_abstract_test.dir\build.make CMakeFiles/data_abstract_test.dir/data_abstract_test.cpp.s
 .PHONY : data_abstract_test.cpp.s
+
+exp_my_test.obj: exp_my_test.cpp.obj
+
+.PHONY : exp_my_test.obj
+
+# target to build an object file
+exp_my_test.cpp.obj:
+	$(MAKE) -f CMakeFiles\exp_my_test.dir\build.make CMakeFiles/exp_my_test.dir/exp_my_test.cpp.obj
+.PHONY : exp_my_test.cpp.obj
+
+exp_my_test.i: exp_my_test.cpp.i
+
+.PHONY : exp_my_test.i
+
+# target to preprocess a source file
+exp_my_test.cpp.i:
+	$(MAKE) -f CMakeFiles\exp_my_test.dir\build.make CMakeFiles/exp_my_test.dir/exp_my_test.cpp.i
+.PHONY : exp_my_test.cpp.i
+
+exp_my_test.s: exp_my_test.cpp.s
+
+.PHONY : exp_my_test.s
+
+# target to generate assembly for a file
+exp_my_test.cpp.s:
+	$(MAKE) -f CMakeFiles\exp_my_test.dir\build.make CMakeFiles/exp_my_test.dir/exp_my_test.cpp.s
+.PHONY : exp_my_test.cpp.s
+
+exp_test.obj: exp_test.cpp.obj
+
+.PHONY : exp_test.obj
+
+# target to build an object file
+exp_test.cpp.obj:
+	$(MAKE) -f CMakeFiles\exp_test.dir\build.make CMakeFiles/exp_test.dir/exp_test.cpp.obj
+.PHONY : exp_test.cpp.obj
+
+exp_test.i: exp_test.cpp.i
+
+.PHONY : exp_test.i
+
+# target to preprocess a source file
+exp_test.cpp.i:
+	$(MAKE) -f CMakeFiles\exp_test.dir\build.make CMakeFiles/exp_test.dir/exp_test.cpp.i
+.PHONY : exp_test.cpp.i
+
+exp_test.s: exp_test.cpp.s
+
+.PHONY : exp_test.s
+
+# target to generate assembly for a file
+exp_test.cpp.s:
+	$(MAKE) -f CMakeFiles\exp_test.dir\build.make CMakeFiles/exp_test.dir/exp_test.cpp.s
+.PHONY : exp_test.cpp.s
 
 extends_test.obj: extends_test.cpp.obj
 
@@ -1396,16 +1476,19 @@ help:
 	@echo ... clean
 	@echo ... depend
 	@echo ... file_io_test
+	@echo ... exp_test
 	@echo ... AandB
 	@echo ... rebuild_cache
 	@echo ... cpp_test123
+	@echo ... file_read
+	@echo ... yunsuan
+	@echo ... exp_my_test
 	@echo ... file_struct_io
 	@echo ... file_write
 	@echo ... file_write2
+	@echo ... abstract_test
 	@echo ... edit_cache
 	@echo ... package_test
-	@echo ... abstract_test
-	@echo ... file_read
 	@echo ... time_test
 	@echo ... data_abstract_test
 	@echo ... extern_test
@@ -1427,7 +1510,6 @@ help:
 	@echo ... Cos_test
 	@echo ... Number_test
 	@echo ... Lambda_test
-	@echo ... yunsuan
 	@echo ... loop_test
 	@echo ... AandB.obj
 	@echo ... AandB.i
@@ -1456,6 +1538,12 @@ help:
 	@echo ... data_abstract_test.obj
 	@echo ... data_abstract_test.i
 	@echo ... data_abstract_test.s
+	@echo ... exp_my_test.obj
+	@echo ... exp_my_test.i
+	@echo ... exp_my_test.s
+	@echo ... exp_test.obj
+	@echo ... exp_test.i
+	@echo ... exp_test.s
 	@echo ... extends_test.obj
 	@echo ... extends_test.i
 	@echo ... extends_test.s
