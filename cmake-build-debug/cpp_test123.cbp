@@ -17,48 +17,6 @@
 					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="typeof_test">
-				<Option output="D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/typeof_test.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 typeof_test"/>
-					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="typeof_test/fast">
-				<Option output="D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/typeof_test.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 typeof_test/fast"/>
-					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="AandB">
 				<Option output="D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/AandB.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug"/>
@@ -153,29 +111,18 @@
 					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="func_test">
-				<Option output="D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/func_test.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="edit_cache">
 				<Option working_dir="D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
+				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 func_test"/>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
 					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="func_test/fast">
-				<Option output="D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/func_test.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="package_test">
+				<Option output="D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/package_test.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -189,14 +136,14 @@
 					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 func_test/fast"/>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 package_test"/>
 					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="io_template">
-				<Option output="D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/io_template.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="package_test/fast">
+				<Option output="D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/package_test.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -210,14 +157,14 @@
 					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 io_template"/>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 package_test/fast"/>
 					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="io_template/fast">
-				<Option output="D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/io_template.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="abstract_test">
+				<Option output="D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/abstract_test.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -231,7 +178,322 @@
 					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 io_template/fast"/>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 abstract_test"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="abstract_test/fast">
+				<Option output="D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/abstract_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 abstract_test/fast"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="reload_test">
+				<Option output="D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/reload_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 reload_test"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="reload_test/fast">
+				<Option output="D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/reload_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 reload_test/fast"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="reload_test2">
+				<Option output="D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/reload_test2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 reload_test2"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="reload_test2/fast">
+				<Option output="D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/reload_test2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 reload_test2/fast"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="time_test">
+				<Option output="D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/time_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 time_test"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="time_test/fast">
+				<Option output="D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/time_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 time_test/fast"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="data_abstract_test">
+				<Option output="D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/data_abstract_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 data_abstract_test"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="data_abstract_test/fast">
+				<Option output="D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/data_abstract_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 data_abstract_test/fast"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="extern_test">
+				<Option output="D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/extern_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 extern_test"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="extern_test/fast">
+				<Option output="D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/extern_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 extern_test/fast"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="impl_test">
+				<Option output="D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/impl_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 impl_test"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="impl_test/fast">
+				<Option output="D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/impl_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 impl_test/fast"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="extends_test">
+				<Option output="D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/extends_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 extends_test"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="extends_test/fast">
+				<Option output="D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/extends_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 extends_test/fast"/>
 					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -274,6 +536,48 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 class_test/fast"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="typeof_test">
+				<Option output="D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/typeof_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 typeof_test"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="typeof_test/fast">
+				<Option output="D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/typeof_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 typeof_test/fast"/>
 					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -405,6 +709,90 @@
 					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="func_test">
+				<Option output="D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/func_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 func_test"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="func_test/fast">
+				<Option output="D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/func_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 func_test/fast"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="io_template">
+				<Option output="D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/io_template.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 io_template"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="io_template/fast">
+				<Option output="D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/io_template.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 io_template/fast"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="io_test">
 				<Option output="D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/io_test.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug"/>
@@ -442,48 +830,6 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 io_test/fast"/>
-					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="time_test">
-				<Option output="D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/time_test.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 time_test"/>
-					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="time_test/fast">
-				<Option output="D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/time_test.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 time_test/fast"/>
 					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -741,48 +1087,6 @@
 					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="extern_test">
-				<Option output="D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/extern_test.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 extern_test"/>
-					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="extern_test/fast">
-				<Option output="D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/extern_test.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 extern_test/fast"/>
-					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="yunsuan">
 				<Option output="D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/yunsuan.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug"/>
@@ -867,16 +1171,6 @@
 					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/WorkSpaceCBloks/cpp_test123/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 		</Build>
 		<Unit filename="D:/WorkSpaceCBloks/cpp_test123/AandB.cpp">
 			<Option target="AandB"/>
@@ -893,17 +1187,29 @@
 		<Unit filename="D:/WorkSpaceCBloks/cpp_test123/Number_test.cpp">
 			<Option target="Number_test"/>
 		</Unit>
+		<Unit filename="D:/WorkSpaceCBloks/cpp_test123/abstract_test.cpp">
+			<Option target="abstract_test"/>
+		</Unit>
 		<Unit filename="D:/WorkSpaceCBloks/cpp_test123/char_test.cpp">
 			<Option target="char_test.cpp"/>
 		</Unit>
 		<Unit filename="D:/WorkSpaceCBloks/cpp_test123/class_test.cpp">
 			<Option target="class_test"/>
 		</Unit>
+		<Unit filename="D:/WorkSpaceCBloks/cpp_test123/data_abstract_test.cpp">
+			<Option target="data_abstract_test"/>
+		</Unit>
+		<Unit filename="D:/WorkSpaceCBloks/cpp_test123/extends_test.cpp">
+			<Option target="extends_test"/>
+		</Unit>
 		<Unit filename="D:/WorkSpaceCBloks/cpp_test123/extern_test.cpp">
 			<Option target="extern_test"/>
 		</Unit>
 		<Unit filename="D:/WorkSpaceCBloks/cpp_test123/func_test.cpp">
 			<Option target="func_test"/>
+		</Unit>
+		<Unit filename="D:/WorkSpaceCBloks/cpp_test123/impl_test.cpp">
+			<Option target="impl_test"/>
 		</Unit>
 		<Unit filename="D:/WorkSpaceCBloks/cpp_test123/io_template.cpp">
 			<Option target="io_template"/>
@@ -920,11 +1226,20 @@
 		<Unit filename="D:/WorkSpaceCBloks/cpp_test123/mm.cpp">
 			<Option target="mm"/>
 		</Unit>
+		<Unit filename="D:/WorkSpaceCBloks/cpp_test123/package_test.cpp">
+			<Option target="package_test"/>
+		</Unit>
 		<Unit filename="D:/WorkSpaceCBloks/cpp_test123/point_test.cpp">
 			<Option target="point_test"/>
 		</Unit>
 		<Unit filename="D:/WorkSpaceCBloks/cpp_test123/ref_test.cpp">
 			<Option target="ref_test"/>
+		</Unit>
+		<Unit filename="D:/WorkSpaceCBloks/cpp_test123/reload_test.cpp">
+			<Option target="reload_test"/>
+		</Unit>
+		<Unit filename="D:/WorkSpaceCBloks/cpp_test123/reload_test2.cpp">
+			<Option target="reload_test2"/>
 		</Unit>
 		<Unit filename="D:/WorkSpaceCBloks/cpp_test123/structure_test.cpp">
 			<Option target="structure_test"/>
