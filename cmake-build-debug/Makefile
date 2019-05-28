@@ -110,6 +110,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named file_io_test
+
+# Build rule for target.
+file_io_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 file_io_test
+.PHONY : file_io_test
+
+# fast build rule for target.
+file_io_test/fast:
+	$(MAKE) -f CMakeFiles\file_io_test.dir\build.make CMakeFiles/file_io_test.dir/build
+.PHONY : file_io_test/fast
+
+#=============================================================================
 # Target rules for targets named AandB
 
 # Build rule for target.
@@ -134,6 +147,45 @@ cpp_test123: cmake_check_build_system
 cpp_test123/fast:
 	$(MAKE) -f CMakeFiles\cpp_test123.dir\build.make CMakeFiles/cpp_test123.dir/build
 .PHONY : cpp_test123/fast
+
+#=============================================================================
+# Target rules for targets named file_struct_io
+
+# Build rule for target.
+file_struct_io: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 file_struct_io
+.PHONY : file_struct_io
+
+# fast build rule for target.
+file_struct_io/fast:
+	$(MAKE) -f CMakeFiles\file_struct_io.dir\build.make CMakeFiles/file_struct_io.dir/build
+.PHONY : file_struct_io/fast
+
+#=============================================================================
+# Target rules for targets named file_write
+
+# Build rule for target.
+file_write: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 file_write
+.PHONY : file_write
+
+# fast build rule for target.
+file_write/fast:
+	$(MAKE) -f CMakeFiles\file_write.dir\build.make CMakeFiles/file_write.dir/build
+.PHONY : file_write/fast
+
+#=============================================================================
+# Target rules for targets named file_write2
+
+# Build rule for target.
+file_write2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 file_write2
+.PHONY : file_write2
+
+# fast build rule for target.
+file_write2/fast:
+	$(MAKE) -f CMakeFiles\file_write2.dir\build.make CMakeFiles/file_write2.dir/build
+.PHONY : file_write2/fast
 
 #=============================================================================
 # Target rules for targets named package_test
@@ -162,30 +214,17 @@ abstract_test/fast:
 .PHONY : abstract_test/fast
 
 #=============================================================================
-# Target rules for targets named reload_test
+# Target rules for targets named file_read
 
 # Build rule for target.
-reload_test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 reload_test
-.PHONY : reload_test
+file_read: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 file_read
+.PHONY : file_read
 
 # fast build rule for target.
-reload_test/fast:
-	$(MAKE) -f CMakeFiles\reload_test.dir\build.make CMakeFiles/reload_test.dir/build
-.PHONY : reload_test/fast
-
-#=============================================================================
-# Target rules for targets named reload_test2
-
-# Build rule for target.
-reload_test2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 reload_test2
-.PHONY : reload_test2
-
-# fast build rule for target.
-reload_test2/fast:
-	$(MAKE) -f CMakeFiles\reload_test2.dir\build.make CMakeFiles/reload_test2.dir/build
-.PHONY : reload_test2/fast
+file_read/fast:
+	$(MAKE) -f CMakeFiles\file_read.dir\build.make CMakeFiles/file_read.dir/build
+.PHONY : file_read/fast
 
 #=============================================================================
 # Target rules for targets named time_test
@@ -238,6 +277,32 @@ impl_test: cmake_check_build_system
 impl_test/fast:
 	$(MAKE) -f CMakeFiles\impl_test.dir\build.make CMakeFiles/impl_test.dir/build
 .PHONY : impl_test/fast
+
+#=============================================================================
+# Target rules for targets named reload_test2
+
+# Build rule for target.
+reload_test2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 reload_test2
+.PHONY : reload_test2
+
+# fast build rule for target.
+reload_test2/fast:
+	$(MAKE) -f CMakeFiles\reload_test2.dir\build.make CMakeFiles/reload_test2.dir/build
+.PHONY : reload_test2/fast
+
+#=============================================================================
+# Target rules for targets named reload_test
+
+# Build rule for target.
+reload_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 reload_test
+.PHONY : reload_test
+
+# fast build rule for target.
+reload_test/fast:
+	$(MAKE) -f CMakeFiles\reload_test.dir\build.make CMakeFiles/reload_test.dir/build
+.PHONY : reload_test/fast
 
 #=============================================================================
 # Target rules for targets named extends_test
@@ -757,6 +822,141 @@ extern_test.cpp.s:
 	$(MAKE) -f CMakeFiles\extern_test.dir\build.make CMakeFiles/extern_test.dir/extern_test.cpp.s
 .PHONY : extern_test.cpp.s
 
+file_io_test.obj: file_io_test.cpp.obj
+
+.PHONY : file_io_test.obj
+
+# target to build an object file
+file_io_test.cpp.obj:
+	$(MAKE) -f CMakeFiles\file_io_test.dir\build.make CMakeFiles/file_io_test.dir/file_io_test.cpp.obj
+.PHONY : file_io_test.cpp.obj
+
+file_io_test.i: file_io_test.cpp.i
+
+.PHONY : file_io_test.i
+
+# target to preprocess a source file
+file_io_test.cpp.i:
+	$(MAKE) -f CMakeFiles\file_io_test.dir\build.make CMakeFiles/file_io_test.dir/file_io_test.cpp.i
+.PHONY : file_io_test.cpp.i
+
+file_io_test.s: file_io_test.cpp.s
+
+.PHONY : file_io_test.s
+
+# target to generate assembly for a file
+file_io_test.cpp.s:
+	$(MAKE) -f CMakeFiles\file_io_test.dir\build.make CMakeFiles/file_io_test.dir/file_io_test.cpp.s
+.PHONY : file_io_test.cpp.s
+
+file_read.obj: file_read.cpp.obj
+
+.PHONY : file_read.obj
+
+# target to build an object file
+file_read.cpp.obj:
+	$(MAKE) -f CMakeFiles\file_read.dir\build.make CMakeFiles/file_read.dir/file_read.cpp.obj
+.PHONY : file_read.cpp.obj
+
+file_read.i: file_read.cpp.i
+
+.PHONY : file_read.i
+
+# target to preprocess a source file
+file_read.cpp.i:
+	$(MAKE) -f CMakeFiles\file_read.dir\build.make CMakeFiles/file_read.dir/file_read.cpp.i
+.PHONY : file_read.cpp.i
+
+file_read.s: file_read.cpp.s
+
+.PHONY : file_read.s
+
+# target to generate assembly for a file
+file_read.cpp.s:
+	$(MAKE) -f CMakeFiles\file_read.dir\build.make CMakeFiles/file_read.dir/file_read.cpp.s
+.PHONY : file_read.cpp.s
+
+file_struct_io.obj: file_struct_io.cpp.obj
+
+.PHONY : file_struct_io.obj
+
+# target to build an object file
+file_struct_io.cpp.obj:
+	$(MAKE) -f CMakeFiles\file_struct_io.dir\build.make CMakeFiles/file_struct_io.dir/file_struct_io.cpp.obj
+.PHONY : file_struct_io.cpp.obj
+
+file_struct_io.i: file_struct_io.cpp.i
+
+.PHONY : file_struct_io.i
+
+# target to preprocess a source file
+file_struct_io.cpp.i:
+	$(MAKE) -f CMakeFiles\file_struct_io.dir\build.make CMakeFiles/file_struct_io.dir/file_struct_io.cpp.i
+.PHONY : file_struct_io.cpp.i
+
+file_struct_io.s: file_struct_io.cpp.s
+
+.PHONY : file_struct_io.s
+
+# target to generate assembly for a file
+file_struct_io.cpp.s:
+	$(MAKE) -f CMakeFiles\file_struct_io.dir\build.make CMakeFiles/file_struct_io.dir/file_struct_io.cpp.s
+.PHONY : file_struct_io.cpp.s
+
+file_write.obj: file_write.cpp.obj
+
+.PHONY : file_write.obj
+
+# target to build an object file
+file_write.cpp.obj:
+	$(MAKE) -f CMakeFiles\file_write.dir\build.make CMakeFiles/file_write.dir/file_write.cpp.obj
+.PHONY : file_write.cpp.obj
+
+file_write.i: file_write.cpp.i
+
+.PHONY : file_write.i
+
+# target to preprocess a source file
+file_write.cpp.i:
+	$(MAKE) -f CMakeFiles\file_write.dir\build.make CMakeFiles/file_write.dir/file_write.cpp.i
+.PHONY : file_write.cpp.i
+
+file_write.s: file_write.cpp.s
+
+.PHONY : file_write.s
+
+# target to generate assembly for a file
+file_write.cpp.s:
+	$(MAKE) -f CMakeFiles\file_write.dir\build.make CMakeFiles/file_write.dir/file_write.cpp.s
+.PHONY : file_write.cpp.s
+
+file_write2.obj: file_write2.cpp.obj
+
+.PHONY : file_write2.obj
+
+# target to build an object file
+file_write2.cpp.obj:
+	$(MAKE) -f CMakeFiles\file_write2.dir\build.make CMakeFiles/file_write2.dir/file_write2.cpp.obj
+.PHONY : file_write2.cpp.obj
+
+file_write2.i: file_write2.cpp.i
+
+.PHONY : file_write2.i
+
+# target to preprocess a source file
+file_write2.cpp.i:
+	$(MAKE) -f CMakeFiles\file_write2.dir\build.make CMakeFiles/file_write2.dir/file_write2.cpp.i
+.PHONY : file_write2.cpp.i
+
+file_write2.s: file_write2.cpp.s
+
+.PHONY : file_write2.s
+
+# target to generate assembly for a file
+file_write2.cpp.s:
+	$(MAKE) -f CMakeFiles\file_write2.dir\build.make CMakeFiles/file_write2.dir/file_write2.cpp.s
+.PHONY : file_write2.cpp.s
+
 func_test.obj: func_test.cpp.obj
 
 .PHONY : func_test.obj
@@ -1195,18 +1395,23 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
+	@echo ... file_io_test
 	@echo ... AandB
 	@echo ... rebuild_cache
 	@echo ... cpp_test123
+	@echo ... file_struct_io
+	@echo ... file_write
+	@echo ... file_write2
 	@echo ... edit_cache
 	@echo ... package_test
 	@echo ... abstract_test
-	@echo ... reload_test
-	@echo ... reload_test2
+	@echo ... file_read
 	@echo ... time_test
 	@echo ... data_abstract_test
 	@echo ... extern_test
 	@echo ... impl_test
+	@echo ... reload_test2
+	@echo ... reload_test
 	@echo ... extends_test
 	@echo ... class_test
 	@echo ... typeof_test
@@ -1257,6 +1462,21 @@ help:
 	@echo ... extern_test.obj
 	@echo ... extern_test.i
 	@echo ... extern_test.s
+	@echo ... file_io_test.obj
+	@echo ... file_io_test.i
+	@echo ... file_io_test.s
+	@echo ... file_read.obj
+	@echo ... file_read.i
+	@echo ... file_read.s
+	@echo ... file_struct_io.obj
+	@echo ... file_struct_io.i
+	@echo ... file_struct_io.s
+	@echo ... file_write.obj
+	@echo ... file_write.i
+	@echo ... file_write.s
+	@echo ... file_write2.obj
+	@echo ... file_write2.i
+	@echo ... file_write2.s
 	@echo ... func_test.obj
 	@echo ... func_test.i
 	@echo ... func_test.s

@@ -1,0 +1,3 @@
+Byte 5 from beginning: f
+Byte 10 from end: q
+Byte 3 from current: u
