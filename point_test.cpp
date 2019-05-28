@@ -38,5 +38,21 @@ int main(){
     cout << *ip << endl;
     cout << "Value of &ip variable: ";
     cout << &ip << endl;
+
+    int  *ap;
+    int a = 100;
+    ap = &a;
+    int c = *ap;
+    int d = *(&a);
+//    *&a = a
+    int e = *&a;
+//    int ff = 99;
+//    int f = *ff;
+
+    cout << c << endl;
+    cout << d << endl;
+    cout << e << endl;
+
+
     return 0;
 }
