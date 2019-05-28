@@ -5,6 +5,8 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_executable(cpp_test123 main.cpp)
 add_executable(AandB AandB.cpp )
+add_executable(time_test time_test.cpp)
+add_executable(ref_test ref_test.cpp)
 add_executable(point_test point_test.cpp)
 add_executable( char_test.cpp char_test.cpp)
 add_executable(Array_test Array_test.cpp)

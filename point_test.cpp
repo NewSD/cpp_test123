@@ -39,18 +39,24 @@ int main(){
     cout << "Value of &ip variable: ";
     cout << &ip << endl;
 
-    int  *ap;
-    int a = 100;
-    ap = &a;
-    int c = *ap;
-    int d = *(&a);
+    int  *ap;     //字面值   地址值
+    int a = 100; // 100      &0x61fe1c
+    ap = &a;    //0x61fe1c   &0x61fe28
+    int c = *ap; // 100      &0x61fe20
+    int d = *(&a);  //100    &0x61fe18
 //    *&a = a
     int e = *&a;
 //    int ff = 99;
 //    int f = *ff;
 
+    cout << ap << endl;
+    cout << &a << endl;
+    cout << *ap << endl;
+    cout << &ap << endl;
     cout << c << endl;
+    cout << &c << endl;
     cout << d << endl;
+    cout << &d << endl;
     cout << e << endl;
 
 

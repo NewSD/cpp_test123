@@ -149,19 +149,6 @@ cpp_test123/fast:
 .PHONY : cpp_test123/fast
 
 #=============================================================================
-# Target rules for targets named point_test
-
-# Build rule for target.
-point_test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 point_test
-.PHONY : point_test
-
-# fast build rule for target.
-point_test/fast:
-	$(MAKE) -f CMakeFiles\point_test.dir\build.make CMakeFiles/point_test.dir/build
-.PHONY : point_test/fast
-
-#=============================================================================
 # Target rules for targets named Cos_test
 
 # Build rule for target.
@@ -186,6 +173,45 @@ char_test.cpp: cmake_check_build_system
 char_test.cpp/fast:
 	$(MAKE) -f CMakeFiles\char_test.cpp.dir\build.make CMakeFiles/char_test.cpp.dir/build
 .PHONY : char_test.cpp/fast
+
+#=============================================================================
+# Target rules for targets named time_test
+
+# Build rule for target.
+time_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 time_test
+.PHONY : time_test
+
+# fast build rule for target.
+time_test/fast:
+	$(MAKE) -f CMakeFiles\time_test.dir\build.make CMakeFiles/time_test.dir/build
+.PHONY : time_test/fast
+
+#=============================================================================
+# Target rules for targets named ref_test
+
+# Build rule for target.
+ref_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 ref_test
+.PHONY : ref_test
+
+# fast build rule for target.
+ref_test/fast:
+	$(MAKE) -f CMakeFiles\ref_test.dir\build.make CMakeFiles/ref_test.dir/build
+.PHONY : ref_test/fast
+
+#=============================================================================
+# Target rules for targets named point_test
+
+# Build rule for target.
+point_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 point_test
+.PHONY : point_test
+
+# fast build rule for target.
+point_test/fast:
+	$(MAKE) -f CMakeFiles\point_test.dir\build.make CMakeFiles/point_test.dir/build
+.PHONY : point_test/fast
 
 #=============================================================================
 # Target rules for targets named mm
@@ -602,6 +628,60 @@ point_test.cpp.s:
 	$(MAKE) -f CMakeFiles\point_test.dir\build.make CMakeFiles/point_test.dir/point_test.cpp.s
 .PHONY : point_test.cpp.s
 
+ref_test.obj: ref_test.cpp.obj
+
+.PHONY : ref_test.obj
+
+# target to build an object file
+ref_test.cpp.obj:
+	$(MAKE) -f CMakeFiles\ref_test.dir\build.make CMakeFiles/ref_test.dir/ref_test.cpp.obj
+.PHONY : ref_test.cpp.obj
+
+ref_test.i: ref_test.cpp.i
+
+.PHONY : ref_test.i
+
+# target to preprocess a source file
+ref_test.cpp.i:
+	$(MAKE) -f CMakeFiles\ref_test.dir\build.make CMakeFiles/ref_test.dir/ref_test.cpp.i
+.PHONY : ref_test.cpp.i
+
+ref_test.s: ref_test.cpp.s
+
+.PHONY : ref_test.s
+
+# target to generate assembly for a file
+ref_test.cpp.s:
+	$(MAKE) -f CMakeFiles\ref_test.dir\build.make CMakeFiles/ref_test.dir/ref_test.cpp.s
+.PHONY : ref_test.cpp.s
+
+time_test.obj: time_test.cpp.obj
+
+.PHONY : time_test.obj
+
+# target to build an object file
+time_test.cpp.obj:
+	$(MAKE) -f CMakeFiles\time_test.dir\build.make CMakeFiles/time_test.dir/time_test.cpp.obj
+.PHONY : time_test.cpp.obj
+
+time_test.i: time_test.cpp.i
+
+.PHONY : time_test.i
+
+# target to preprocess a source file
+time_test.cpp.i:
+	$(MAKE) -f CMakeFiles\time_test.dir\build.make CMakeFiles/time_test.dir/time_test.cpp.i
+.PHONY : time_test.cpp.i
+
+time_test.s: time_test.cpp.s
+
+.PHONY : time_test.s
+
+# target to generate assembly for a file
+time_test.cpp.s:
+	$(MAKE) -f CMakeFiles\time_test.dir\build.make CMakeFiles/time_test.dir/time_test.cpp.s
+.PHONY : time_test.cpp.s
+
 yunsuan.obj: yunsuan.cpp.obj
 
 .PHONY : yunsuan.obj
@@ -639,9 +719,11 @@ help:
 	@echo ... AandB
 	@echo ... rebuild_cache
 	@echo ... cpp_test123
-	@echo ... point_test
 	@echo ... Cos_test
 	@echo ... char_test.cpp
+	@echo ... time_test
+	@echo ... ref_test
+	@echo ... point_test
 	@echo ... mm
 	@echo ... Array_test
 	@echo ... Lambda_test
@@ -686,6 +768,12 @@ help:
 	@echo ... point_test.obj
 	@echo ... point_test.i
 	@echo ... point_test.s
+	@echo ... ref_test.obj
+	@echo ... ref_test.i
+	@echo ... ref_test.s
+	@echo ... time_test.obj
+	@echo ... time_test.i
+	@echo ... time_test.s
 	@echo ... yunsuan.obj
 	@echo ... yunsuan.i
 	@echo ... yunsuan.s
