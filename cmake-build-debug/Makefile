@@ -201,6 +201,32 @@ cpp_test123/fast:
 .PHONY : cpp_test123/fast
 
 #=============================================================================
+# Target rules for targets named ref_test
+
+# Build rule for target.
+ref_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 ref_test
+.PHONY : ref_test
+
+# fast build rule for target.
+ref_test/fast:
+	$(MAKE) -f CMakeFiles\ref_test.dir\build.make CMakeFiles/ref_test.dir/build
+.PHONY : ref_test/fast
+
+#=============================================================================
+# Target rules for targets named vector_test
+
+# Build rule for target.
+vector_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 vector_test
+.PHONY : vector_test
+
+# fast build rule for target.
+vector_test/fast:
+	$(MAKE) -f CMakeFiles\vector_test.dir\build.make CMakeFiles/vector_test.dir/build
+.PHONY : vector_test/fast
+
+#=============================================================================
 # Target rules for targets named class_test
 
 # Build rule for target.
@@ -227,19 +253,6 @@ template_class/fast:
 .PHONY : template_class/fast
 
 #=============================================================================
-# Target rules for targets named rom_array_test
-
-# Build rule for target.
-rom_array_test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 rom_array_test
-.PHONY : rom_array_test
-
-# fast build rule for target.
-rom_array_test/fast:
-	$(MAKE) -f CMakeFiles\rom_array_test.dir\build.make CMakeFiles/rom_array_test.dir/build
-.PHONY : rom_array_test/fast
-
-#=============================================================================
 # Target rules for targets named template_test
 
 # Build rule for target.
@@ -264,6 +277,19 @@ rom_object_test: cmake_check_build_system
 rom_object_test/fast:
 	$(MAKE) -f CMakeFiles\rom_object_test.dir\build.make CMakeFiles/rom_object_test.dir/build
 .PHONY : rom_object_test/fast
+
+#=============================================================================
+# Target rules for targets named rom_array_test
+
+# Build rule for target.
+rom_array_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 rom_array_test
+.PHONY : rom_array_test
+
+# fast build rule for target.
+rom_array_test/fast:
+	$(MAKE) -f CMakeFiles\rom_array_test.dir\build.make CMakeFiles/rom_array_test.dir/build
+.PHONY : rom_array_test/fast
 
 #=============================================================================
 # Target rules for targets named rom_test
@@ -576,19 +602,6 @@ io_test: cmake_check_build_system
 io_test/fast:
 	$(MAKE) -f CMakeFiles\io_test.dir\build.make CMakeFiles/io_test.dir/build
 .PHONY : io_test/fast
-
-#=============================================================================
-# Target rules for targets named ref_test
-
-# Build rule for target.
-ref_test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 ref_test
-.PHONY : ref_test
-
-# fast build rule for target.
-ref_test/fast:
-	$(MAKE) -f CMakeFiles\ref_test.dir\build.make CMakeFiles/ref_test.dir/build
-.PHONY : ref_test/fast
 
 #=============================================================================
 # Target rules for targets named point_test
@@ -1762,6 +1775,33 @@ typeof_test.cpp.s:
 	$(MAKE) -f CMakeFiles\typeof_test.dir\build.make CMakeFiles/typeof_test.dir/typeof_test.cpp.s
 .PHONY : typeof_test.cpp.s
 
+vector_test.obj: vector_test.cpp.obj
+
+.PHONY : vector_test.obj
+
+# target to build an object file
+vector_test.cpp.obj:
+	$(MAKE) -f CMakeFiles\vector_test.dir\build.make CMakeFiles/vector_test.dir/vector_test.cpp.obj
+.PHONY : vector_test.cpp.obj
+
+vector_test.i: vector_test.cpp.i
+
+.PHONY : vector_test.i
+
+# target to preprocess a source file
+vector_test.cpp.i:
+	$(MAKE) -f CMakeFiles\vector_test.dir\build.make CMakeFiles/vector_test.dir/vector_test.cpp.i
+.PHONY : vector_test.cpp.i
+
+vector_test.s: vector_test.cpp.s
+
+.PHONY : vector_test.s
+
+# target to generate assembly for a file
+vector_test.cpp.s:
+	$(MAKE) -f CMakeFiles\vector_test.dir\build.make CMakeFiles/vector_test.dir/vector_test.cpp.s
+.PHONY : vector_test.cpp.s
+
 yunsuan.obj: yunsuan.cpp.obj
 
 .PHONY : yunsuan.obj
@@ -1803,11 +1843,13 @@ help:
 	@echo ... AandB
 	@echo ... rebuild_cache
 	@echo ... cpp_test123
+	@echo ... ref_test
+	@echo ... vector_test
 	@echo ... class_test
 	@echo ... template_class
-	@echo ... rom_array_test
 	@echo ... template_test
 	@echo ... rom_object_test
+	@echo ... rom_array_test
 	@echo ... rom_test
 	@echo ... yunsuan
 	@echo ... exp_my_test
@@ -1833,7 +1875,6 @@ help:
 	@echo ... func_test
 	@echo ... io_template
 	@echo ... io_test
-	@echo ... ref_test
 	@echo ... point_test
 	@echo ... char_test.cpp
 	@echo ... Cos_test
@@ -1962,6 +2003,9 @@ help:
 	@echo ... typeof_test.obj
 	@echo ... typeof_test.i
 	@echo ... typeof_test.s
+	@echo ... vector_test.obj
+	@echo ... vector_test.i
+	@echo ... vector_test.s
 	@echo ... yunsuan.obj
 	@echo ... yunsuan.i
 	@echo ... yunsuan.s

@@ -5,6 +5,7 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_executable(cpp_test123 main.cpp)
 add_executable(AandB AandB.cpp )
+add_executable(vector_test vector_test.cpp)
 add_executable(template_class template_class.cpp)
 add_executable(template_test template_test.cpp)
 add_executable(namespace_test namespace_test.cpp)
