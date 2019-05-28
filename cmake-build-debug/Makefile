@@ -110,6 +110,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Number_test
+
+# Build rule for target.
+Number_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Number_test
+.PHONY : Number_test
+
+# fast build rule for target.
+Number_test/fast:
+	$(MAKE) -f CMakeFiles\Number_test.dir\build.make CMakeFiles/Number_test.dir/build
+.PHONY : Number_test/fast
+
+#=============================================================================
 # Target rules for targets named AandB
 
 # Build rule for target.
@@ -136,43 +149,43 @@ cpp_test123/fast:
 .PHONY : cpp_test123/fast
 
 #=============================================================================
-# Target rules for targets named Lambda_test
+# Target rules for targets named point_test
 
 # Build rule for target.
-Lambda_test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Lambda_test
-.PHONY : Lambda_test
+point_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 point_test
+.PHONY : point_test
 
 # fast build rule for target.
-Lambda_test/fast:
-	$(MAKE) -f CMakeFiles\Lambda_test.dir\build.make CMakeFiles/Lambda_test.dir/build
-.PHONY : Lambda_test/fast
+point_test/fast:
+	$(MAKE) -f CMakeFiles\point_test.dir\build.make CMakeFiles/point_test.dir/build
+.PHONY : point_test/fast
 
 #=============================================================================
-# Target rules for targets named extern_test
+# Target rules for targets named Cos_test
 
 # Build rule for target.
-extern_test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 extern_test
-.PHONY : extern_test
+Cos_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Cos_test
+.PHONY : Cos_test
 
 # fast build rule for target.
-extern_test/fast:
-	$(MAKE) -f CMakeFiles\extern_test.dir\build.make CMakeFiles/extern_test.dir/build
-.PHONY : extern_test/fast
+Cos_test/fast:
+	$(MAKE) -f CMakeFiles\Cos_test.dir\build.make CMakeFiles/Cos_test.dir/build
+.PHONY : Cos_test/fast
 
 #=============================================================================
-# Target rules for targets named func_test
+# Target rules for targets named char_test.cpp
 
 # Build rule for target.
-func_test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 func_test
-.PHONY : func_test
+char_test.cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 char_test.cpp
+.PHONY : char_test.cpp
 
 # fast build rule for target.
-func_test/fast:
-	$(MAKE) -f CMakeFiles\func_test.dir\build.make CMakeFiles/func_test.dir/build
-.PHONY : func_test/fast
+char_test.cpp/fast:
+	$(MAKE) -f CMakeFiles\char_test.cpp.dir\build.make CMakeFiles/char_test.cpp.dir/build
+.PHONY : char_test.cpp/fast
 
 #=============================================================================
 # Target rules for targets named mm
@@ -188,17 +201,56 @@ mm/fast:
 .PHONY : mm/fast
 
 #=============================================================================
-# Target rules for targets named loop_test
+# Target rules for targets named Array_test
 
 # Build rule for target.
-loop_test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 loop_test
-.PHONY : loop_test
+Array_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Array_test
+.PHONY : Array_test
 
 # fast build rule for target.
-loop_test/fast:
-	$(MAKE) -f CMakeFiles\loop_test.dir\build.make CMakeFiles/loop_test.dir/build
-.PHONY : loop_test/fast
+Array_test/fast:
+	$(MAKE) -f CMakeFiles\Array_test.dir\build.make CMakeFiles/Array_test.dir/build
+.PHONY : Array_test/fast
+
+#=============================================================================
+# Target rules for targets named Lambda_test
+
+# Build rule for target.
+Lambda_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Lambda_test
+.PHONY : Lambda_test
+
+# fast build rule for target.
+Lambda_test/fast:
+	$(MAKE) -f CMakeFiles\Lambda_test.dir\build.make CMakeFiles/Lambda_test.dir/build
+.PHONY : Lambda_test/fast
+
+#=============================================================================
+# Target rules for targets named func_test
+
+# Build rule for target.
+func_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 func_test
+.PHONY : func_test
+
+# fast build rule for target.
+func_test/fast:
+	$(MAKE) -f CMakeFiles\func_test.dir\build.make CMakeFiles/func_test.dir/build
+.PHONY : func_test/fast
+
+#=============================================================================
+# Target rules for targets named extern_test
+
+# Build rule for target.
+extern_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 extern_test
+.PHONY : extern_test
+
+# fast build rule for target.
+extern_test/fast:
+	$(MAKE) -f CMakeFiles\extern_test.dir\build.make CMakeFiles/extern_test.dir/build
+.PHONY : extern_test/fast
 
 #=============================================================================
 # Target rules for targets named yunsuan
@@ -212,6 +264,19 @@ yunsuan: cmake_check_build_system
 yunsuan/fast:
 	$(MAKE) -f CMakeFiles\yunsuan.dir\build.make CMakeFiles/yunsuan.dir/build
 .PHONY : yunsuan/fast
+
+#=============================================================================
+# Target rules for targets named loop_test
+
+# Build rule for target.
+loop_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 loop_test
+.PHONY : loop_test
+
+# fast build rule for target.
+loop_test/fast:
+	$(MAKE) -f CMakeFiles\loop_test.dir\build.make CMakeFiles/loop_test.dir/build
+.PHONY : loop_test/fast
 
 AandB.obj: AandB.cpp.obj
 
@@ -240,6 +305,60 @@ AandB.cpp.s:
 	$(MAKE) -f CMakeFiles\AandB.dir\build.make CMakeFiles/AandB.dir/AandB.cpp.s
 .PHONY : AandB.cpp.s
 
+Array_test.obj: Array_test.cpp.obj
+
+.PHONY : Array_test.obj
+
+# target to build an object file
+Array_test.cpp.obj:
+	$(MAKE) -f CMakeFiles\Array_test.dir\build.make CMakeFiles/Array_test.dir/Array_test.cpp.obj
+.PHONY : Array_test.cpp.obj
+
+Array_test.i: Array_test.cpp.i
+
+.PHONY : Array_test.i
+
+# target to preprocess a source file
+Array_test.cpp.i:
+	$(MAKE) -f CMakeFiles\Array_test.dir\build.make CMakeFiles/Array_test.dir/Array_test.cpp.i
+.PHONY : Array_test.cpp.i
+
+Array_test.s: Array_test.cpp.s
+
+.PHONY : Array_test.s
+
+# target to generate assembly for a file
+Array_test.cpp.s:
+	$(MAKE) -f CMakeFiles\Array_test.dir\build.make CMakeFiles/Array_test.dir/Array_test.cpp.s
+.PHONY : Array_test.cpp.s
+
+Cos_test.obj: Cos_test.cpp.obj
+
+.PHONY : Cos_test.obj
+
+# target to build an object file
+Cos_test.cpp.obj:
+	$(MAKE) -f CMakeFiles\Cos_test.dir\build.make CMakeFiles/Cos_test.dir/Cos_test.cpp.obj
+.PHONY : Cos_test.cpp.obj
+
+Cos_test.i: Cos_test.cpp.i
+
+.PHONY : Cos_test.i
+
+# target to preprocess a source file
+Cos_test.cpp.i:
+	$(MAKE) -f CMakeFiles\Cos_test.dir\build.make CMakeFiles/Cos_test.dir/Cos_test.cpp.i
+.PHONY : Cos_test.cpp.i
+
+Cos_test.s: Cos_test.cpp.s
+
+.PHONY : Cos_test.s
+
+# target to generate assembly for a file
+Cos_test.cpp.s:
+	$(MAKE) -f CMakeFiles\Cos_test.dir\build.make CMakeFiles/Cos_test.dir/Cos_test.cpp.s
+.PHONY : Cos_test.cpp.s
+
 Lambda_test.obj: Lambda_test.cpp.obj
 
 .PHONY : Lambda_test.obj
@@ -266,6 +385,60 @@ Lambda_test.s: Lambda_test.cpp.s
 Lambda_test.cpp.s:
 	$(MAKE) -f CMakeFiles\Lambda_test.dir\build.make CMakeFiles/Lambda_test.dir/Lambda_test.cpp.s
 .PHONY : Lambda_test.cpp.s
+
+Number_test.obj: Number_test.cpp.obj
+
+.PHONY : Number_test.obj
+
+# target to build an object file
+Number_test.cpp.obj:
+	$(MAKE) -f CMakeFiles\Number_test.dir\build.make CMakeFiles/Number_test.dir/Number_test.cpp.obj
+.PHONY : Number_test.cpp.obj
+
+Number_test.i: Number_test.cpp.i
+
+.PHONY : Number_test.i
+
+# target to preprocess a source file
+Number_test.cpp.i:
+	$(MAKE) -f CMakeFiles\Number_test.dir\build.make CMakeFiles/Number_test.dir/Number_test.cpp.i
+.PHONY : Number_test.cpp.i
+
+Number_test.s: Number_test.cpp.s
+
+.PHONY : Number_test.s
+
+# target to generate assembly for a file
+Number_test.cpp.s:
+	$(MAKE) -f CMakeFiles\Number_test.dir\build.make CMakeFiles/Number_test.dir/Number_test.cpp.s
+.PHONY : Number_test.cpp.s
+
+char_test.obj: char_test.cpp.obj
+
+.PHONY : char_test.obj
+
+# target to build an object file
+char_test.cpp.obj:
+	$(MAKE) -f CMakeFiles\char_test.cpp.dir\build.make CMakeFiles/char_test.cpp.dir/char_test.cpp.obj
+.PHONY : char_test.cpp.obj
+
+char_test.i: char_test.cpp.i
+
+.PHONY : char_test.i
+
+# target to preprocess a source file
+char_test.cpp.i:
+	$(MAKE) -f CMakeFiles\char_test.cpp.dir\build.make CMakeFiles/char_test.cpp.dir/char_test.cpp.i
+.PHONY : char_test.cpp.i
+
+char_test.s: char_test.cpp.s
+
+.PHONY : char_test.s
+
+# target to generate assembly for a file
+char_test.cpp.s:
+	$(MAKE) -f CMakeFiles\char_test.cpp.dir\build.make CMakeFiles/char_test.cpp.dir/char_test.cpp.s
+.PHONY : char_test.cpp.s
 
 extern_test.obj: extern_test.cpp.obj
 
@@ -402,6 +575,33 @@ mm.cpp.s:
 	$(MAKE) -f CMakeFiles\mm.dir\build.make CMakeFiles/mm.dir/mm.cpp.s
 .PHONY : mm.cpp.s
 
+point_test.obj: point_test.cpp.obj
+
+.PHONY : point_test.obj
+
+# target to build an object file
+point_test.cpp.obj:
+	$(MAKE) -f CMakeFiles\point_test.dir\build.make CMakeFiles/point_test.dir/point_test.cpp.obj
+.PHONY : point_test.cpp.obj
+
+point_test.i: point_test.cpp.i
+
+.PHONY : point_test.i
+
+# target to preprocess a source file
+point_test.cpp.i:
+	$(MAKE) -f CMakeFiles\point_test.dir\build.make CMakeFiles/point_test.dir/point_test.cpp.i
+.PHONY : point_test.cpp.i
+
+point_test.s: point_test.cpp.s
+
+.PHONY : point_test.s
+
+# target to generate assembly for a file
+point_test.cpp.s:
+	$(MAKE) -f CMakeFiles\point_test.dir\build.make CMakeFiles/point_test.dir/point_test.cpp.s
+.PHONY : point_test.cpp.s
+
 yunsuan.obj: yunsuan.cpp.obj
 
 .PHONY : yunsuan.obj
@@ -435,22 +635,39 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
+	@echo ... Number_test
 	@echo ... AandB
 	@echo ... rebuild_cache
 	@echo ... cpp_test123
-	@echo ... Lambda_test
-	@echo ... extern_test
-	@echo ... func_test
+	@echo ... point_test
+	@echo ... Cos_test
+	@echo ... char_test.cpp
 	@echo ... mm
-	@echo ... edit_cache
-	@echo ... loop_test
+	@echo ... Array_test
+	@echo ... Lambda_test
+	@echo ... func_test
+	@echo ... extern_test
 	@echo ... yunsuan
+	@echo ... loop_test
+	@echo ... edit_cache
 	@echo ... AandB.obj
 	@echo ... AandB.i
 	@echo ... AandB.s
+	@echo ... Array_test.obj
+	@echo ... Array_test.i
+	@echo ... Array_test.s
+	@echo ... Cos_test.obj
+	@echo ... Cos_test.i
+	@echo ... Cos_test.s
 	@echo ... Lambda_test.obj
 	@echo ... Lambda_test.i
 	@echo ... Lambda_test.s
+	@echo ... Number_test.obj
+	@echo ... Number_test.i
+	@echo ... Number_test.s
+	@echo ... char_test.obj
+	@echo ... char_test.i
+	@echo ... char_test.s
 	@echo ... extern_test.obj
 	@echo ... extern_test.i
 	@echo ... extern_test.s
@@ -466,6 +683,9 @@ help:
 	@echo ... mm.obj
 	@echo ... mm.i
 	@echo ... mm.s
+	@echo ... point_test.obj
+	@echo ... point_test.i
+	@echo ... point_test.s
 	@echo ... yunsuan.obj
 	@echo ... yunsuan.i
 	@echo ... yunsuan.s

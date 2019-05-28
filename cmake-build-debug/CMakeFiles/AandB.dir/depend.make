@@ -3,3 +3,5 @@
 
 CMakeFiles/AandB.dir/AandB.cpp.obj: ../AandB.cpp
 
+CMakeFiles/AandB.dir/Array_test.cpp.obj: ../Array_test.cpp
+
