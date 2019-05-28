@@ -64,43 +64,6 @@ CMAKE_SOURCE_DIR = D:\WorkSpaceCBloks\cpp_test123
 CMAKE_BINARY_DIR = D:\WorkSpaceCBloks\cpp_test123\cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/Number_test.dir
-
-# All Build rule for target.
-CMakeFiles/Number_test.dir/all:
-	$(MAKE) -f CMakeFiles\Number_test.dir\build.make CMakeFiles/Number_test.dir/depend
-	$(MAKE) -f CMakeFiles\Number_test.dir\build.make CMakeFiles/Number_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\WorkSpaceCBloks\cpp_test123\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target Number_test"
-.PHONY : CMakeFiles/Number_test.dir/all
-
-# Include target in all.
-all: CMakeFiles/Number_test.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/Number_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\WorkSpaceCBloks\cpp_test123\cmake-build-debug\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/Number_test.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\WorkSpaceCBloks\cpp_test123\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/Number_test.dir/rule
-
-# Convenience name for target.
-Number_test: CMakeFiles/Number_test.dir/rule
-
-.PHONY : Number_test
-
-# clean rule for target.
-CMakeFiles/Number_test.dir/clean:
-	$(MAKE) -f CMakeFiles\Number_test.dir\build.make CMakeFiles/Number_test.dir/clean
-.PHONY : CMakeFiles/Number_test.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/Number_test.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/AandB.dir
 
 # All Build rule for target.
@@ -175,198 +138,13 @@ clean: CMakeFiles/cpp_test123.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Cos_test.dir
-
-# All Build rule for target.
-CMakeFiles/Cos_test.dir/all:
-	$(MAKE) -f CMakeFiles\Cos_test.dir\build.make CMakeFiles/Cos_test.dir/depend
-	$(MAKE) -f CMakeFiles\Cos_test.dir\build.make CMakeFiles/Cos_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\WorkSpaceCBloks\cpp_test123\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target Cos_test"
-.PHONY : CMakeFiles/Cos_test.dir/all
-
-# Include target in all.
-all: CMakeFiles/Cos_test.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/Cos_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\WorkSpaceCBloks\cpp_test123\cmake-build-debug\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/Cos_test.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\WorkSpaceCBloks\cpp_test123\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/Cos_test.dir/rule
-
-# Convenience name for target.
-Cos_test: CMakeFiles/Cos_test.dir/rule
-
-.PHONY : Cos_test
-
-# clean rule for target.
-CMakeFiles/Cos_test.dir/clean:
-	$(MAKE) -f CMakeFiles\Cos_test.dir\build.make CMakeFiles/Cos_test.dir/clean
-.PHONY : CMakeFiles/Cos_test.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/Cos_test.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/char_test.cpp.dir
-
-# All Build rule for target.
-CMakeFiles/char_test.cpp.dir/all:
-	$(MAKE) -f CMakeFiles\char_test.cpp.dir\build.make CMakeFiles/char_test.cpp.dir/depend
-	$(MAKE) -f CMakeFiles\char_test.cpp.dir\build.make CMakeFiles/char_test.cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\WorkSpaceCBloks\cpp_test123\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target char_test.cpp"
-.PHONY : CMakeFiles/char_test.cpp.dir/all
-
-# Include target in all.
-all: CMakeFiles/char_test.cpp.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/char_test.cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\WorkSpaceCBloks\cpp_test123\cmake-build-debug\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/char_test.cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\WorkSpaceCBloks\cpp_test123\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/char_test.cpp.dir/rule
-
-# Convenience name for target.
-char_test.cpp: CMakeFiles/char_test.cpp.dir/rule
-
-.PHONY : char_test.cpp
-
-# clean rule for target.
-CMakeFiles/char_test.cpp.dir/clean:
-	$(MAKE) -f CMakeFiles\char_test.cpp.dir\build.make CMakeFiles/char_test.cpp.dir/clean
-.PHONY : CMakeFiles/char_test.cpp.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/char_test.cpp.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/time_test.dir
-
-# All Build rule for target.
-CMakeFiles/time_test.dir/all:
-	$(MAKE) -f CMakeFiles\time_test.dir\build.make CMakeFiles/time_test.dir/depend
-	$(MAKE) -f CMakeFiles\time_test.dir\build.make CMakeFiles/time_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\WorkSpaceCBloks\cpp_test123\cmake-build-debug\CMakeFiles --progress-num=27,28 "Built target time_test"
-.PHONY : CMakeFiles/time_test.dir/all
-
-# Include target in all.
-all: CMakeFiles/time_test.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/time_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\WorkSpaceCBloks\cpp_test123\cmake-build-debug\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/time_test.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\WorkSpaceCBloks\cpp_test123\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/time_test.dir/rule
-
-# Convenience name for target.
-time_test: CMakeFiles/time_test.dir/rule
-
-.PHONY : time_test
-
-# clean rule for target.
-CMakeFiles/time_test.dir/clean:
-	$(MAKE) -f CMakeFiles\time_test.dir\build.make CMakeFiles/time_test.dir/clean
-.PHONY : CMakeFiles/time_test.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/time_test.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/ref_test.dir
-
-# All Build rule for target.
-CMakeFiles/ref_test.dir/all:
-	$(MAKE) -f CMakeFiles\ref_test.dir\build.make CMakeFiles/ref_test.dir/depend
-	$(MAKE) -f CMakeFiles\ref_test.dir\build.make CMakeFiles/ref_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\WorkSpaceCBloks\cpp_test123\cmake-build-debug\CMakeFiles --progress-num=25,26 "Built target ref_test"
-.PHONY : CMakeFiles/ref_test.dir/all
-
-# Include target in all.
-all: CMakeFiles/ref_test.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/ref_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\WorkSpaceCBloks\cpp_test123\cmake-build-debug\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/ref_test.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\WorkSpaceCBloks\cpp_test123\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/ref_test.dir/rule
-
-# Convenience name for target.
-ref_test: CMakeFiles/ref_test.dir/rule
-
-.PHONY : ref_test
-
-# clean rule for target.
-CMakeFiles/ref_test.dir/clean:
-	$(MAKE) -f CMakeFiles\ref_test.dir\build.make CMakeFiles/ref_test.dir/clean
-.PHONY : CMakeFiles/ref_test.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/ref_test.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/point_test.dir
-
-# All Build rule for target.
-CMakeFiles/point_test.dir/all:
-	$(MAKE) -f CMakeFiles\point_test.dir\build.make CMakeFiles/point_test.dir/depend
-	$(MAKE) -f CMakeFiles\point_test.dir\build.make CMakeFiles/point_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\WorkSpaceCBloks\cpp_test123\cmake-build-debug\CMakeFiles --progress-num=23,24 "Built target point_test"
-.PHONY : CMakeFiles/point_test.dir/all
-
-# Include target in all.
-all: CMakeFiles/point_test.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/point_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\WorkSpaceCBloks\cpp_test123\cmake-build-debug\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/point_test.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\WorkSpaceCBloks\cpp_test123\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/point_test.dir/rule
-
-# Convenience name for target.
-point_test: CMakeFiles/point_test.dir/rule
-
-.PHONY : point_test
-
-# clean rule for target.
-CMakeFiles/point_test.dir/clean:
-	$(MAKE) -f CMakeFiles\point_test.dir\build.make CMakeFiles/point_test.dir/clean
-.PHONY : CMakeFiles/point_test.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/point_test.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/mm.dir
 
 # All Build rule for target.
 CMakeFiles/mm.dir/all:
 	$(MAKE) -f CMakeFiles\mm.dir\build.make CMakeFiles/mm.dir/depend
 	$(MAKE) -f CMakeFiles\mm.dir\build.make CMakeFiles/mm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\WorkSpaceCBloks\cpp_test123\cmake-build-debug\CMakeFiles --progress-num=21,22 "Built target mm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\WorkSpaceCBloks\cpp_test123\cmake-build-debug\CMakeFiles --progress-num=25,26 "Built target mm"
 .PHONY : CMakeFiles/mm.dir/all
 
 # Include target in all.
@@ -434,39 +212,39 @@ clean: CMakeFiles/Array_test.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Lambda_test.dir
+# Target rules for target CMakeFiles/structure_test.dir
 
 # All Build rule for target.
-CMakeFiles/Lambda_test.dir/all:
-	$(MAKE) -f CMakeFiles\Lambda_test.dir\build.make CMakeFiles/Lambda_test.dir/depend
-	$(MAKE) -f CMakeFiles\Lambda_test.dir\build.make CMakeFiles/Lambda_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\WorkSpaceCBloks\cpp_test123\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target Lambda_test"
-.PHONY : CMakeFiles/Lambda_test.dir/all
+CMakeFiles/structure_test.dir/all:
+	$(MAKE) -f CMakeFiles\structure_test.dir\build.make CMakeFiles/structure_test.dir/depend
+	$(MAKE) -f CMakeFiles\structure_test.dir\build.make CMakeFiles/structure_test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\WorkSpaceCBloks\cpp_test123\cmake-build-debug\CMakeFiles --progress-num=31,32 "Built target structure_test"
+.PHONY : CMakeFiles/structure_test.dir/all
 
 # Include target in all.
-all: CMakeFiles/Lambda_test.dir/all
+all: CMakeFiles/structure_test.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Lambda_test.dir/rule: cmake_check_build_system
+CMakeFiles/structure_test.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\WorkSpaceCBloks\cpp_test123\cmake-build-debug\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/Lambda_test.dir/all
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/structure_test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\WorkSpaceCBloks\cpp_test123\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/Lambda_test.dir/rule
+.PHONY : CMakeFiles/structure_test.dir/rule
 
 # Convenience name for target.
-Lambda_test: CMakeFiles/Lambda_test.dir/rule
+structure_test: CMakeFiles/structure_test.dir/rule
 
-.PHONY : Lambda_test
-
-# clean rule for target.
-CMakeFiles/Lambda_test.dir/clean:
-	$(MAKE) -f CMakeFiles\Lambda_test.dir\build.make CMakeFiles/Lambda_test.dir/clean
-.PHONY : CMakeFiles/Lambda_test.dir/clean
+.PHONY : structure_test
 
 # clean rule for target.
-clean: CMakeFiles/Lambda_test.dir/clean
+CMakeFiles/structure_test.dir/clean:
+	$(MAKE) -f CMakeFiles\structure_test.dir\build.make CMakeFiles/structure_test.dir/clean
+.PHONY : CMakeFiles/structure_test.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/structure_test.dir/clean
 
 .PHONY : clean
 
@@ -504,6 +282,339 @@ CMakeFiles/func_test.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/func_test.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/io_template.dir
+
+# All Build rule for target.
+CMakeFiles/io_template.dir/all:
+	$(MAKE) -f CMakeFiles\io_template.dir\build.make CMakeFiles/io_template.dir/depend
+	$(MAKE) -f CMakeFiles\io_template.dir\build.make CMakeFiles/io_template.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\WorkSpaceCBloks\cpp_test123\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target io_template"
+.PHONY : CMakeFiles/io_template.dir/all
+
+# Include target in all.
+all: CMakeFiles/io_template.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/io_template.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\WorkSpaceCBloks\cpp_test123\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/io_template.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\WorkSpaceCBloks\cpp_test123\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/io_template.dir/rule
+
+# Convenience name for target.
+io_template: CMakeFiles/io_template.dir/rule
+
+.PHONY : io_template
+
+# clean rule for target.
+CMakeFiles/io_template.dir/clean:
+	$(MAKE) -f CMakeFiles\io_template.dir\build.make CMakeFiles/io_template.dir/clean
+.PHONY : CMakeFiles/io_template.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/io_template.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/point_test.dir
+
+# All Build rule for target.
+CMakeFiles/point_test.dir/all:
+	$(MAKE) -f CMakeFiles\point_test.dir\build.make CMakeFiles/point_test.dir/depend
+	$(MAKE) -f CMakeFiles\point_test.dir\build.make CMakeFiles/point_test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\WorkSpaceCBloks\cpp_test123\cmake-build-debug\CMakeFiles --progress-num=27,28 "Built target point_test"
+.PHONY : CMakeFiles/point_test.dir/all
+
+# Include target in all.
+all: CMakeFiles/point_test.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/point_test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\WorkSpaceCBloks\cpp_test123\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/point_test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\WorkSpaceCBloks\cpp_test123\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/point_test.dir/rule
+
+# Convenience name for target.
+point_test: CMakeFiles/point_test.dir/rule
+
+.PHONY : point_test
+
+# clean rule for target.
+CMakeFiles/point_test.dir/clean:
+	$(MAKE) -f CMakeFiles\point_test.dir\build.make CMakeFiles/point_test.dir/clean
+.PHONY : CMakeFiles/point_test.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/point_test.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/io_test.dir
+
+# All Build rule for target.
+CMakeFiles/io_test.dir/all:
+	$(MAKE) -f CMakeFiles\io_test.dir\build.make CMakeFiles/io_test.dir/depend
+	$(MAKE) -f CMakeFiles\io_test.dir\build.make CMakeFiles/io_test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\WorkSpaceCBloks\cpp_test123\cmake-build-debug\CMakeFiles --progress-num=21,22 "Built target io_test"
+.PHONY : CMakeFiles/io_test.dir/all
+
+# Include target in all.
+all: CMakeFiles/io_test.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/io_test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\WorkSpaceCBloks\cpp_test123\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/io_test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\WorkSpaceCBloks\cpp_test123\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/io_test.dir/rule
+
+# Convenience name for target.
+io_test: CMakeFiles/io_test.dir/rule
+
+.PHONY : io_test
+
+# clean rule for target.
+CMakeFiles/io_test.dir/clean:
+	$(MAKE) -f CMakeFiles\io_test.dir\build.make CMakeFiles/io_test.dir/clean
+.PHONY : CMakeFiles/io_test.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/io_test.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/char_test.cpp.dir
+
+# All Build rule for target.
+CMakeFiles/char_test.cpp.dir/all:
+	$(MAKE) -f CMakeFiles\char_test.cpp.dir\build.make CMakeFiles/char_test.cpp.dir/depend
+	$(MAKE) -f CMakeFiles\char_test.cpp.dir\build.make CMakeFiles/char_test.cpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\WorkSpaceCBloks\cpp_test123\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target char_test.cpp"
+.PHONY : CMakeFiles/char_test.cpp.dir/all
+
+# Include target in all.
+all: CMakeFiles/char_test.cpp.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/char_test.cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\WorkSpaceCBloks\cpp_test123\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/char_test.cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\WorkSpaceCBloks\cpp_test123\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/char_test.cpp.dir/rule
+
+# Convenience name for target.
+char_test.cpp: CMakeFiles/char_test.cpp.dir/rule
+
+.PHONY : char_test.cpp
+
+# clean rule for target.
+CMakeFiles/char_test.cpp.dir/clean:
+	$(MAKE) -f CMakeFiles\char_test.cpp.dir\build.make CMakeFiles/char_test.cpp.dir/clean
+.PHONY : CMakeFiles/char_test.cpp.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/char_test.cpp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/time_test.dir
+
+# All Build rule for target.
+CMakeFiles/time_test.dir/all:
+	$(MAKE) -f CMakeFiles\time_test.dir\build.make CMakeFiles/time_test.dir/depend
+	$(MAKE) -f CMakeFiles\time_test.dir\build.make CMakeFiles/time_test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\WorkSpaceCBloks\cpp_test123\cmake-build-debug\CMakeFiles --progress-num=33,34 "Built target time_test"
+.PHONY : CMakeFiles/time_test.dir/all
+
+# Include target in all.
+all: CMakeFiles/time_test.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/time_test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\WorkSpaceCBloks\cpp_test123\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/time_test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\WorkSpaceCBloks\cpp_test123\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/time_test.dir/rule
+
+# Convenience name for target.
+time_test: CMakeFiles/time_test.dir/rule
+
+.PHONY : time_test
+
+# clean rule for target.
+CMakeFiles/time_test.dir/clean:
+	$(MAKE) -f CMakeFiles\time_test.dir\build.make CMakeFiles/time_test.dir/clean
+.PHONY : CMakeFiles/time_test.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/time_test.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ref_test.dir
+
+# All Build rule for target.
+CMakeFiles/ref_test.dir/all:
+	$(MAKE) -f CMakeFiles\ref_test.dir\build.make CMakeFiles/ref_test.dir/depend
+	$(MAKE) -f CMakeFiles\ref_test.dir\build.make CMakeFiles/ref_test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\WorkSpaceCBloks\cpp_test123\cmake-build-debug\CMakeFiles --progress-num=29,30 "Built target ref_test"
+.PHONY : CMakeFiles/ref_test.dir/all
+
+# Include target in all.
+all: CMakeFiles/ref_test.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ref_test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\WorkSpaceCBloks\cpp_test123\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/ref_test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\WorkSpaceCBloks\cpp_test123\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/ref_test.dir/rule
+
+# Convenience name for target.
+ref_test: CMakeFiles/ref_test.dir/rule
+
+.PHONY : ref_test
+
+# clean rule for target.
+CMakeFiles/ref_test.dir/clean:
+	$(MAKE) -f CMakeFiles\ref_test.dir\build.make CMakeFiles/ref_test.dir/clean
+.PHONY : CMakeFiles/ref_test.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/ref_test.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Cos_test.dir
+
+# All Build rule for target.
+CMakeFiles/Cos_test.dir/all:
+	$(MAKE) -f CMakeFiles\Cos_test.dir\build.make CMakeFiles/Cos_test.dir/depend
+	$(MAKE) -f CMakeFiles\Cos_test.dir\build.make CMakeFiles/Cos_test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\WorkSpaceCBloks\cpp_test123\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target Cos_test"
+.PHONY : CMakeFiles/Cos_test.dir/all
+
+# Include target in all.
+all: CMakeFiles/Cos_test.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Cos_test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\WorkSpaceCBloks\cpp_test123\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/Cos_test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\WorkSpaceCBloks\cpp_test123\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/Cos_test.dir/rule
+
+# Convenience name for target.
+Cos_test: CMakeFiles/Cos_test.dir/rule
+
+.PHONY : Cos_test
+
+# clean rule for target.
+CMakeFiles/Cos_test.dir/clean:
+	$(MAKE) -f CMakeFiles\Cos_test.dir\build.make CMakeFiles/Cos_test.dir/clean
+.PHONY : CMakeFiles/Cos_test.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Cos_test.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Number_test.dir
+
+# All Build rule for target.
+CMakeFiles/Number_test.dir/all:
+	$(MAKE) -f CMakeFiles\Number_test.dir\build.make CMakeFiles/Number_test.dir/depend
+	$(MAKE) -f CMakeFiles\Number_test.dir\build.make CMakeFiles/Number_test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\WorkSpaceCBloks\cpp_test123\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target Number_test"
+.PHONY : CMakeFiles/Number_test.dir/all
+
+# Include target in all.
+all: CMakeFiles/Number_test.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Number_test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\WorkSpaceCBloks\cpp_test123\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/Number_test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\WorkSpaceCBloks\cpp_test123\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/Number_test.dir/rule
+
+# Convenience name for target.
+Number_test: CMakeFiles/Number_test.dir/rule
+
+.PHONY : Number_test
+
+# clean rule for target.
+CMakeFiles/Number_test.dir/clean:
+	$(MAKE) -f CMakeFiles\Number_test.dir\build.make CMakeFiles/Number_test.dir/clean
+.PHONY : CMakeFiles/Number_test.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Number_test.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Lambda_test.dir
+
+# All Build rule for target.
+CMakeFiles/Lambda_test.dir/all:
+	$(MAKE) -f CMakeFiles\Lambda_test.dir\build.make CMakeFiles/Lambda_test.dir/depend
+	$(MAKE) -f CMakeFiles\Lambda_test.dir\build.make CMakeFiles/Lambda_test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\WorkSpaceCBloks\cpp_test123\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target Lambda_test"
+.PHONY : CMakeFiles/Lambda_test.dir/all
+
+# Include target in all.
+all: CMakeFiles/Lambda_test.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Lambda_test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\WorkSpaceCBloks\cpp_test123\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/Lambda_test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\WorkSpaceCBloks\cpp_test123\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/Lambda_test.dir/rule
+
+# Convenience name for target.
+Lambda_test: CMakeFiles/Lambda_test.dir/rule
+
+.PHONY : Lambda_test
+
+# clean rule for target.
+CMakeFiles/Lambda_test.dir/clean:
+	$(MAKE) -f CMakeFiles\Lambda_test.dir\build.make CMakeFiles/Lambda_test.dir/clean
+.PHONY : CMakeFiles/Lambda_test.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Lambda_test.dir/clean
 
 .PHONY : clean
 
@@ -551,7 +662,7 @@ clean: CMakeFiles/extern_test.dir/clean
 CMakeFiles/yunsuan.dir/all:
 	$(MAKE) -f CMakeFiles\yunsuan.dir\build.make CMakeFiles/yunsuan.dir/depend
 	$(MAKE) -f CMakeFiles\yunsuan.dir\build.make CMakeFiles/yunsuan.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\WorkSpaceCBloks\cpp_test123\cmake-build-debug\CMakeFiles --progress-num=29,30 "Built target yunsuan"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\WorkSpaceCBloks\cpp_test123\cmake-build-debug\CMakeFiles --progress-num=35,36 "Built target yunsuan"
 .PHONY : CMakeFiles/yunsuan.dir/all
 
 # Include target in all.
@@ -588,7 +699,7 @@ clean: CMakeFiles/yunsuan.dir/clean
 CMakeFiles/loop_test.dir/all:
 	$(MAKE) -f CMakeFiles\loop_test.dir\build.make CMakeFiles/loop_test.dir/depend
 	$(MAKE) -f CMakeFiles\loop_test.dir\build.make CMakeFiles/loop_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\WorkSpaceCBloks\cpp_test123\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target loop_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\WorkSpaceCBloks\cpp_test123\cmake-build-debug\CMakeFiles --progress-num=23,24 "Built target loop_test"
 .PHONY : CMakeFiles/loop_test.dir/all
 
 # Include target in all.

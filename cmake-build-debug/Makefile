@@ -110,19 +110,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Number_test
-
-# Build rule for target.
-Number_test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Number_test
-.PHONY : Number_test
-
-# fast build rule for target.
-Number_test/fast:
-	$(MAKE) -f CMakeFiles\Number_test.dir\build.make CMakeFiles/Number_test.dir/build
-.PHONY : Number_test/fast
-
-#=============================================================================
 # Target rules for targets named AandB
 
 # Build rule for target.
@@ -149,17 +136,95 @@ cpp_test123/fast:
 .PHONY : cpp_test123/fast
 
 #=============================================================================
-# Target rules for targets named Cos_test
+# Target rules for targets named mm
 
 # Build rule for target.
-Cos_test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Cos_test
-.PHONY : Cos_test
+mm: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 mm
+.PHONY : mm
 
 # fast build rule for target.
-Cos_test/fast:
-	$(MAKE) -f CMakeFiles\Cos_test.dir\build.make CMakeFiles/Cos_test.dir/build
-.PHONY : Cos_test/fast
+mm/fast:
+	$(MAKE) -f CMakeFiles\mm.dir\build.make CMakeFiles/mm.dir/build
+.PHONY : mm/fast
+
+#=============================================================================
+# Target rules for targets named Array_test
+
+# Build rule for target.
+Array_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Array_test
+.PHONY : Array_test
+
+# fast build rule for target.
+Array_test/fast:
+	$(MAKE) -f CMakeFiles\Array_test.dir\build.make CMakeFiles/Array_test.dir/build
+.PHONY : Array_test/fast
+
+#=============================================================================
+# Target rules for targets named structure_test
+
+# Build rule for target.
+structure_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 structure_test
+.PHONY : structure_test
+
+# fast build rule for target.
+structure_test/fast:
+	$(MAKE) -f CMakeFiles\structure_test.dir\build.make CMakeFiles/structure_test.dir/build
+.PHONY : structure_test/fast
+
+#=============================================================================
+# Target rules for targets named func_test
+
+# Build rule for target.
+func_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 func_test
+.PHONY : func_test
+
+# fast build rule for target.
+func_test/fast:
+	$(MAKE) -f CMakeFiles\func_test.dir\build.make CMakeFiles/func_test.dir/build
+.PHONY : func_test/fast
+
+#=============================================================================
+# Target rules for targets named io_template
+
+# Build rule for target.
+io_template: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 io_template
+.PHONY : io_template
+
+# fast build rule for target.
+io_template/fast:
+	$(MAKE) -f CMakeFiles\io_template.dir\build.make CMakeFiles/io_template.dir/build
+.PHONY : io_template/fast
+
+#=============================================================================
+# Target rules for targets named point_test
+
+# Build rule for target.
+point_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 point_test
+.PHONY : point_test
+
+# fast build rule for target.
+point_test/fast:
+	$(MAKE) -f CMakeFiles\point_test.dir\build.make CMakeFiles/point_test.dir/build
+.PHONY : point_test/fast
+
+#=============================================================================
+# Target rules for targets named io_test
+
+# Build rule for target.
+io_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 io_test
+.PHONY : io_test
+
+# fast build rule for target.
+io_test/fast:
+	$(MAKE) -f CMakeFiles\io_test.dir\build.make CMakeFiles/io_test.dir/build
+.PHONY : io_test/fast
 
 #=============================================================================
 # Target rules for targets named char_test.cpp
@@ -201,43 +266,30 @@ ref_test/fast:
 .PHONY : ref_test/fast
 
 #=============================================================================
-# Target rules for targets named point_test
+# Target rules for targets named Cos_test
 
 # Build rule for target.
-point_test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 point_test
-.PHONY : point_test
+Cos_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Cos_test
+.PHONY : Cos_test
 
 # fast build rule for target.
-point_test/fast:
-	$(MAKE) -f CMakeFiles\point_test.dir\build.make CMakeFiles/point_test.dir/build
-.PHONY : point_test/fast
+Cos_test/fast:
+	$(MAKE) -f CMakeFiles\Cos_test.dir\build.make CMakeFiles/Cos_test.dir/build
+.PHONY : Cos_test/fast
 
 #=============================================================================
-# Target rules for targets named mm
+# Target rules for targets named Number_test
 
 # Build rule for target.
-mm: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 mm
-.PHONY : mm
+Number_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Number_test
+.PHONY : Number_test
 
 # fast build rule for target.
-mm/fast:
-	$(MAKE) -f CMakeFiles\mm.dir\build.make CMakeFiles/mm.dir/build
-.PHONY : mm/fast
-
-#=============================================================================
-# Target rules for targets named Array_test
-
-# Build rule for target.
-Array_test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Array_test
-.PHONY : Array_test
-
-# fast build rule for target.
-Array_test/fast:
-	$(MAKE) -f CMakeFiles\Array_test.dir\build.make CMakeFiles/Array_test.dir/build
-.PHONY : Array_test/fast
+Number_test/fast:
+	$(MAKE) -f CMakeFiles\Number_test.dir\build.make CMakeFiles/Number_test.dir/build
+.PHONY : Number_test/fast
 
 #=============================================================================
 # Target rules for targets named Lambda_test
@@ -251,19 +303,6 @@ Lambda_test: cmake_check_build_system
 Lambda_test/fast:
 	$(MAKE) -f CMakeFiles\Lambda_test.dir\build.make CMakeFiles/Lambda_test.dir/build
 .PHONY : Lambda_test/fast
-
-#=============================================================================
-# Target rules for targets named func_test
-
-# Build rule for target.
-func_test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 func_test
-.PHONY : func_test
-
-# fast build rule for target.
-func_test/fast:
-	$(MAKE) -f CMakeFiles\func_test.dir\build.make CMakeFiles/func_test.dir/build
-.PHONY : func_test/fast
 
 #=============================================================================
 # Target rules for targets named extern_test
@@ -520,6 +559,60 @@ func_test.cpp.s:
 	$(MAKE) -f CMakeFiles\func_test.dir\build.make CMakeFiles/func_test.dir/func_test.cpp.s
 .PHONY : func_test.cpp.s
 
+io_template.obj: io_template.cpp.obj
+
+.PHONY : io_template.obj
+
+# target to build an object file
+io_template.cpp.obj:
+	$(MAKE) -f CMakeFiles\io_template.dir\build.make CMakeFiles/io_template.dir/io_template.cpp.obj
+.PHONY : io_template.cpp.obj
+
+io_template.i: io_template.cpp.i
+
+.PHONY : io_template.i
+
+# target to preprocess a source file
+io_template.cpp.i:
+	$(MAKE) -f CMakeFiles\io_template.dir\build.make CMakeFiles/io_template.dir/io_template.cpp.i
+.PHONY : io_template.cpp.i
+
+io_template.s: io_template.cpp.s
+
+.PHONY : io_template.s
+
+# target to generate assembly for a file
+io_template.cpp.s:
+	$(MAKE) -f CMakeFiles\io_template.dir\build.make CMakeFiles/io_template.dir/io_template.cpp.s
+.PHONY : io_template.cpp.s
+
+io_test.obj: io_test.cpp.obj
+
+.PHONY : io_test.obj
+
+# target to build an object file
+io_test.cpp.obj:
+	$(MAKE) -f CMakeFiles\io_test.dir\build.make CMakeFiles/io_test.dir/io_test.cpp.obj
+.PHONY : io_test.cpp.obj
+
+io_test.i: io_test.cpp.i
+
+.PHONY : io_test.i
+
+# target to preprocess a source file
+io_test.cpp.i:
+	$(MAKE) -f CMakeFiles\io_test.dir\build.make CMakeFiles/io_test.dir/io_test.cpp.i
+.PHONY : io_test.cpp.i
+
+io_test.s: io_test.cpp.s
+
+.PHONY : io_test.s
+
+# target to generate assembly for a file
+io_test.cpp.s:
+	$(MAKE) -f CMakeFiles\io_test.dir\build.make CMakeFiles/io_test.dir/io_test.cpp.s
+.PHONY : io_test.cpp.s
+
 loop_test.obj: loop_test.cpp.obj
 
 .PHONY : loop_test.obj
@@ -655,6 +748,33 @@ ref_test.cpp.s:
 	$(MAKE) -f CMakeFiles\ref_test.dir\build.make CMakeFiles/ref_test.dir/ref_test.cpp.s
 .PHONY : ref_test.cpp.s
 
+structure_test.obj: structure_test.cpp.obj
+
+.PHONY : structure_test.obj
+
+# target to build an object file
+structure_test.cpp.obj:
+	$(MAKE) -f CMakeFiles\structure_test.dir\build.make CMakeFiles/structure_test.dir/structure_test.cpp.obj
+.PHONY : structure_test.cpp.obj
+
+structure_test.i: structure_test.cpp.i
+
+.PHONY : structure_test.i
+
+# target to preprocess a source file
+structure_test.cpp.i:
+	$(MAKE) -f CMakeFiles\structure_test.dir\build.make CMakeFiles/structure_test.dir/structure_test.cpp.i
+.PHONY : structure_test.cpp.i
+
+structure_test.s: structure_test.cpp.s
+
+.PHONY : structure_test.s
+
+# target to generate assembly for a file
+structure_test.cpp.s:
+	$(MAKE) -f CMakeFiles\structure_test.dir\build.make CMakeFiles/structure_test.dir/structure_test.cpp.s
+.PHONY : structure_test.cpp.s
+
 time_test.obj: time_test.cpp.obj
 
 .PHONY : time_test.obj
@@ -715,19 +835,22 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... Number_test
 	@echo ... AandB
 	@echo ... rebuild_cache
 	@echo ... cpp_test123
-	@echo ... Cos_test
+	@echo ... mm
+	@echo ... Array_test
+	@echo ... structure_test
+	@echo ... func_test
+	@echo ... io_template
+	@echo ... point_test
+	@echo ... io_test
 	@echo ... char_test.cpp
 	@echo ... time_test
 	@echo ... ref_test
-	@echo ... point_test
-	@echo ... mm
-	@echo ... Array_test
+	@echo ... Cos_test
+	@echo ... Number_test
 	@echo ... Lambda_test
-	@echo ... func_test
 	@echo ... extern_test
 	@echo ... yunsuan
 	@echo ... loop_test
@@ -756,6 +879,12 @@ help:
 	@echo ... func_test.obj
 	@echo ... func_test.i
 	@echo ... func_test.s
+	@echo ... io_template.obj
+	@echo ... io_template.i
+	@echo ... io_template.s
+	@echo ... io_test.obj
+	@echo ... io_test.i
+	@echo ... io_test.s
 	@echo ... loop_test.obj
 	@echo ... loop_test.i
 	@echo ... loop_test.s
@@ -771,6 +900,9 @@ help:
 	@echo ... ref_test.obj
 	@echo ... ref_test.i
 	@echo ... ref_test.s
+	@echo ... structure_test.obj
+	@echo ... structure_test.i
+	@echo ... structure_test.s
 	@echo ... time_test.obj
 	@echo ... time_test.i
 	@echo ... time_test.s
