@@ -136,17 +136,17 @@ cpp_test123/fast:
 .PHONY : cpp_test123/fast
 
 #=============================================================================
-# Target rules for targets named mm
+# Target rules for targets named Lambda_test
 
 # Build rule for target.
-mm: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 mm
-.PHONY : mm
+Lambda_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Lambda_test
+.PHONY : Lambda_test
 
 # fast build rule for target.
-mm/fast:
-	$(MAKE) -f CMakeFiles\mm.dir\build.make CMakeFiles/mm.dir/build
-.PHONY : mm/fast
+Lambda_test/fast:
+	$(MAKE) -f CMakeFiles\Lambda_test.dir\build.make CMakeFiles/Lambda_test.dir/build
+.PHONY : Lambda_test/fast
 
 #=============================================================================
 # Target rules for targets named extern_test
@@ -160,6 +160,45 @@ extern_test: cmake_check_build_system
 extern_test/fast:
 	$(MAKE) -f CMakeFiles\extern_test.dir\build.make CMakeFiles/extern_test.dir/build
 .PHONY : extern_test/fast
+
+#=============================================================================
+# Target rules for targets named func_test
+
+# Build rule for target.
+func_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 func_test
+.PHONY : func_test
+
+# fast build rule for target.
+func_test/fast:
+	$(MAKE) -f CMakeFiles\func_test.dir\build.make CMakeFiles/func_test.dir/build
+.PHONY : func_test/fast
+
+#=============================================================================
+# Target rules for targets named mm
+
+# Build rule for target.
+mm: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 mm
+.PHONY : mm
+
+# fast build rule for target.
+mm/fast:
+	$(MAKE) -f CMakeFiles\mm.dir\build.make CMakeFiles/mm.dir/build
+.PHONY : mm/fast
+
+#=============================================================================
+# Target rules for targets named loop_test
+
+# Build rule for target.
+loop_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 loop_test
+.PHONY : loop_test
+
+# fast build rule for target.
+loop_test/fast:
+	$(MAKE) -f CMakeFiles\loop_test.dir\build.make CMakeFiles/loop_test.dir/build
+.PHONY : loop_test/fast
 
 #=============================================================================
 # Target rules for targets named yunsuan
@@ -201,6 +240,33 @@ AandB.cpp.s:
 	$(MAKE) -f CMakeFiles\AandB.dir\build.make CMakeFiles/AandB.dir/AandB.cpp.s
 .PHONY : AandB.cpp.s
 
+Lambda_test.obj: Lambda_test.cpp.obj
+
+.PHONY : Lambda_test.obj
+
+# target to build an object file
+Lambda_test.cpp.obj:
+	$(MAKE) -f CMakeFiles\Lambda_test.dir\build.make CMakeFiles/Lambda_test.dir/Lambda_test.cpp.obj
+.PHONY : Lambda_test.cpp.obj
+
+Lambda_test.i: Lambda_test.cpp.i
+
+.PHONY : Lambda_test.i
+
+# target to preprocess a source file
+Lambda_test.cpp.i:
+	$(MAKE) -f CMakeFiles\Lambda_test.dir\build.make CMakeFiles/Lambda_test.dir/Lambda_test.cpp.i
+.PHONY : Lambda_test.cpp.i
+
+Lambda_test.s: Lambda_test.cpp.s
+
+.PHONY : Lambda_test.s
+
+# target to generate assembly for a file
+Lambda_test.cpp.s:
+	$(MAKE) -f CMakeFiles\Lambda_test.dir\build.make CMakeFiles/Lambda_test.dir/Lambda_test.cpp.s
+.PHONY : Lambda_test.cpp.s
+
 extern_test.obj: extern_test.cpp.obj
 
 .PHONY : extern_test.obj
@@ -227,6 +293,60 @@ extern_test.s: extern_test.cpp.s
 extern_test.cpp.s:
 	$(MAKE) -f CMakeFiles\extern_test.dir\build.make CMakeFiles/extern_test.dir/extern_test.cpp.s
 .PHONY : extern_test.cpp.s
+
+func_test.obj: func_test.cpp.obj
+
+.PHONY : func_test.obj
+
+# target to build an object file
+func_test.cpp.obj:
+	$(MAKE) -f CMakeFiles\func_test.dir\build.make CMakeFiles/func_test.dir/func_test.cpp.obj
+.PHONY : func_test.cpp.obj
+
+func_test.i: func_test.cpp.i
+
+.PHONY : func_test.i
+
+# target to preprocess a source file
+func_test.cpp.i:
+	$(MAKE) -f CMakeFiles\func_test.dir\build.make CMakeFiles/func_test.dir/func_test.cpp.i
+.PHONY : func_test.cpp.i
+
+func_test.s: func_test.cpp.s
+
+.PHONY : func_test.s
+
+# target to generate assembly for a file
+func_test.cpp.s:
+	$(MAKE) -f CMakeFiles\func_test.dir\build.make CMakeFiles/func_test.dir/func_test.cpp.s
+.PHONY : func_test.cpp.s
+
+loop_test.obj: loop_test.cpp.obj
+
+.PHONY : loop_test.obj
+
+# target to build an object file
+loop_test.cpp.obj:
+	$(MAKE) -f CMakeFiles\loop_test.dir\build.make CMakeFiles/loop_test.dir/loop_test.cpp.obj
+.PHONY : loop_test.cpp.obj
+
+loop_test.i: loop_test.cpp.i
+
+.PHONY : loop_test.i
+
+# target to preprocess a source file
+loop_test.cpp.i:
+	$(MAKE) -f CMakeFiles\loop_test.dir\build.make CMakeFiles/loop_test.dir/loop_test.cpp.i
+.PHONY : loop_test.cpp.i
+
+loop_test.s: loop_test.cpp.s
+
+.PHONY : loop_test.s
+
+# target to generate assembly for a file
+loop_test.cpp.s:
+	$(MAKE) -f CMakeFiles\loop_test.dir\build.make CMakeFiles/loop_test.dir/loop_test.cpp.s
+.PHONY : loop_test.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -315,19 +435,31 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... rebuild_cache
 	@echo ... AandB
+	@echo ... rebuild_cache
 	@echo ... cpp_test123
-	@echo ... mm
+	@echo ... Lambda_test
 	@echo ... extern_test
+	@echo ... func_test
+	@echo ... mm
 	@echo ... edit_cache
+	@echo ... loop_test
 	@echo ... yunsuan
 	@echo ... AandB.obj
 	@echo ... AandB.i
 	@echo ... AandB.s
+	@echo ... Lambda_test.obj
+	@echo ... Lambda_test.i
+	@echo ... Lambda_test.s
 	@echo ... extern_test.obj
 	@echo ... extern_test.i
 	@echo ... extern_test.s
+	@echo ... func_test.obj
+	@echo ... func_test.i
+	@echo ... func_test.s
+	@echo ... loop_test.obj
+	@echo ... loop_test.i
+	@echo ... loop_test.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

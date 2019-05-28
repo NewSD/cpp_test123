@@ -53,7 +53,10 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/AandB.dir/DependInfo.cmake"
   "CMakeFiles/cpp_test123.dir/DependInfo.cmake"
-  "CMakeFiles/mm.dir/DependInfo.cmake"
+  "CMakeFiles/Lambda_test.dir/DependInfo.cmake"
   "CMakeFiles/extern_test.dir/DependInfo.cmake"
+  "CMakeFiles/func_test.dir/DependInfo.cmake"
+  "CMakeFiles/mm.dir/DependInfo.cmake"
+  "CMakeFiles/loop_test.dir/DependInfo.cmake"
   "CMakeFiles/yunsuan.dir/DependInfo.cmake"
   )
