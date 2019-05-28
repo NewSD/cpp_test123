@@ -110,19 +110,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named file_io_test
-
-# Build rule for target.
-file_io_test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 file_io_test
-.PHONY : file_io_test
-
-# fast build rule for target.
-file_io_test/fast:
-	$(MAKE) -f CMakeFiles\file_io_test.dir\build.make CMakeFiles/file_io_test.dir/build
-.PHONY : file_io_test/fast
-
-#=============================================================================
 # Target rules for targets named exp_test
 
 # Build rule for target.
@@ -134,6 +121,32 @@ exp_test: cmake_check_build_system
 exp_test/fast:
 	$(MAKE) -f CMakeFiles\exp_test.dir\build.make CMakeFiles/exp_test.dir/build
 .PHONY : exp_test/fast
+
+#=============================================================================
+# Target rules for targets named typeof_test
+
+# Build rule for target.
+typeof_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 typeof_test
+.PHONY : typeof_test
+
+# fast build rule for target.
+typeof_test/fast:
+	$(MAKE) -f CMakeFiles\typeof_test.dir\build.make CMakeFiles/typeof_test.dir/build
+.PHONY : typeof_test/fast
+
+#=============================================================================
+# Target rules for targets named rom_array3_test
+
+# Build rule for target.
+rom_array3_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 rom_array3_test
+.PHONY : rom_array3_test
+
+# fast build rule for target.
+rom_array3_test/fast:
+	$(MAKE) -f CMakeFiles\rom_array3_test.dir\build.make CMakeFiles/rom_array3_test.dir/build
+.PHONY : rom_array3_test/fast
 
 #=============================================================================
 # Target rules for targets named AandB
@@ -162,19 +175,6 @@ cpp_test123/fast:
 .PHONY : cpp_test123/fast
 
 #=============================================================================
-# Target rules for targets named file_read
-
-# Build rule for target.
-file_read: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 file_read
-.PHONY : file_read
-
-# fast build rule for target.
-file_read/fast:
-	$(MAKE) -f CMakeFiles\file_read.dir\build.make CMakeFiles/file_read.dir/build
-.PHONY : file_read/fast
-
-#=============================================================================
 # Target rules for targets named yunsuan
 
 # Build rule for target.
@@ -201,6 +201,32 @@ exp_my_test/fast:
 .PHONY : exp_my_test/fast
 
 #=============================================================================
+# Target rules for targets named rom_array_test
+
+# Build rule for target.
+rom_array_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 rom_array_test
+.PHONY : rom_array_test
+
+# fast build rule for target.
+rom_array_test/fast:
+	$(MAKE) -f CMakeFiles\rom_array_test.dir\build.make CMakeFiles/rom_array_test.dir/build
+.PHONY : rom_array_test/fast
+
+#=============================================================================
+# Target rules for targets named rom_test
+
+# Build rule for target.
+rom_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 rom_test
+.PHONY : rom_test
+
+# fast build rule for target.
+rom_test/fast:
+	$(MAKE) -f CMakeFiles\rom_test.dir\build.make CMakeFiles/rom_test.dir/build
+.PHONY : rom_test/fast
+
+#=============================================================================
 # Target rules for targets named file_struct_io
 
 # Build rule for target.
@@ -212,6 +238,19 @@ file_struct_io: cmake_check_build_system
 file_struct_io/fast:
 	$(MAKE) -f CMakeFiles\file_struct_io.dir\build.make CMakeFiles/file_struct_io.dir/build
 .PHONY : file_struct_io/fast
+
+#=============================================================================
+# Target rules for targets named file_write2
+
+# Build rule for target.
+file_write2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 file_write2
+.PHONY : file_write2
+
+# fast build rule for target.
+file_write2/fast:
+	$(MAKE) -f CMakeFiles\file_write2.dir\build.make CMakeFiles/file_write2.dir/build
+.PHONY : file_write2/fast
 
 #=============================================================================
 # Target rules for targets named file_write
@@ -227,17 +266,30 @@ file_write/fast:
 .PHONY : file_write/fast
 
 #=============================================================================
-# Target rules for targets named file_write2
+# Target rules for targets named file_read
 
 # Build rule for target.
-file_write2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 file_write2
-.PHONY : file_write2
+file_read: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 file_read
+.PHONY : file_read
 
 # fast build rule for target.
-file_write2/fast:
-	$(MAKE) -f CMakeFiles\file_write2.dir\build.make CMakeFiles/file_write2.dir/build
-.PHONY : file_write2/fast
+file_read/fast:
+	$(MAKE) -f CMakeFiles\file_read.dir\build.make CMakeFiles/file_read.dir/build
+.PHONY : file_read/fast
+
+#=============================================================================
+# Target rules for targets named file_io_test
+
+# Build rule for target.
+file_io_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 file_io_test
+.PHONY : file_io_test
+
+# fast build rule for target.
+file_io_test/fast:
+	$(MAKE) -f CMakeFiles\file_io_test.dir\build.make CMakeFiles/file_io_test.dir/build
+.PHONY : file_io_test/fast
 
 #=============================================================================
 # Target rules for targets named abstract_test
@@ -368,19 +420,6 @@ class_test: cmake_check_build_system
 class_test/fast:
 	$(MAKE) -f CMakeFiles\class_test.dir\build.make CMakeFiles/class_test.dir/build
 .PHONY : class_test/fast
-
-#=============================================================================
-# Target rules for targets named typeof_test
-
-# Build rule for target.
-typeof_test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 typeof_test
-.PHONY : typeof_test
-
-# fast build rule for target.
-typeof_test/fast:
-	$(MAKE) -f CMakeFiles\typeof_test.dir\build.make CMakeFiles/typeof_test.dir/build
-.PHONY : typeof_test/fast
 
 #=============================================================================
 # Target rules for targets named mm
@@ -1361,6 +1400,87 @@ reload_test2.cpp.s:
 	$(MAKE) -f CMakeFiles\reload_test2.dir\build.make CMakeFiles/reload_test2.dir/reload_test2.cpp.s
 .PHONY : reload_test2.cpp.s
 
+rom_array3_test.obj: rom_array3_test.cpp.obj
+
+.PHONY : rom_array3_test.obj
+
+# target to build an object file
+rom_array3_test.cpp.obj:
+	$(MAKE) -f CMakeFiles\rom_array3_test.dir\build.make CMakeFiles/rom_array3_test.dir/rom_array3_test.cpp.obj
+.PHONY : rom_array3_test.cpp.obj
+
+rom_array3_test.i: rom_array3_test.cpp.i
+
+.PHONY : rom_array3_test.i
+
+# target to preprocess a source file
+rom_array3_test.cpp.i:
+	$(MAKE) -f CMakeFiles\rom_array3_test.dir\build.make CMakeFiles/rom_array3_test.dir/rom_array3_test.cpp.i
+.PHONY : rom_array3_test.cpp.i
+
+rom_array3_test.s: rom_array3_test.cpp.s
+
+.PHONY : rom_array3_test.s
+
+# target to generate assembly for a file
+rom_array3_test.cpp.s:
+	$(MAKE) -f CMakeFiles\rom_array3_test.dir\build.make CMakeFiles/rom_array3_test.dir/rom_array3_test.cpp.s
+.PHONY : rom_array3_test.cpp.s
+
+rom_array_test.obj: rom_array_test.cpp.obj
+
+.PHONY : rom_array_test.obj
+
+# target to build an object file
+rom_array_test.cpp.obj:
+	$(MAKE) -f CMakeFiles\rom_array_test.dir\build.make CMakeFiles/rom_array_test.dir/rom_array_test.cpp.obj
+.PHONY : rom_array_test.cpp.obj
+
+rom_array_test.i: rom_array_test.cpp.i
+
+.PHONY : rom_array_test.i
+
+# target to preprocess a source file
+rom_array_test.cpp.i:
+	$(MAKE) -f CMakeFiles\rom_array_test.dir\build.make CMakeFiles/rom_array_test.dir/rom_array_test.cpp.i
+.PHONY : rom_array_test.cpp.i
+
+rom_array_test.s: rom_array_test.cpp.s
+
+.PHONY : rom_array_test.s
+
+# target to generate assembly for a file
+rom_array_test.cpp.s:
+	$(MAKE) -f CMakeFiles\rom_array_test.dir\build.make CMakeFiles/rom_array_test.dir/rom_array_test.cpp.s
+.PHONY : rom_array_test.cpp.s
+
+rom_test.obj: rom_test.cpp.obj
+
+.PHONY : rom_test.obj
+
+# target to build an object file
+rom_test.cpp.obj:
+	$(MAKE) -f CMakeFiles\rom_test.dir\build.make CMakeFiles/rom_test.dir/rom_test.cpp.obj
+.PHONY : rom_test.cpp.obj
+
+rom_test.i: rom_test.cpp.i
+
+.PHONY : rom_test.i
+
+# target to preprocess a source file
+rom_test.cpp.i:
+	$(MAKE) -f CMakeFiles\rom_test.dir\build.make CMakeFiles/rom_test.dir/rom_test.cpp.i
+.PHONY : rom_test.cpp.i
+
+rom_test.s: rom_test.cpp.s
+
+.PHONY : rom_test.s
+
+# target to generate assembly for a file
+rom_test.cpp.s:
+	$(MAKE) -f CMakeFiles\rom_test.dir\build.make CMakeFiles/rom_test.dir/rom_test.cpp.s
+.PHONY : rom_test.cpp.s
+
 structure_test.obj: structure_test.cpp.obj
 
 .PHONY : structure_test.obj
@@ -1475,17 +1595,21 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... file_io_test
 	@echo ... exp_test
+	@echo ... typeof_test
+	@echo ... rom_array3_test
 	@echo ... AandB
 	@echo ... rebuild_cache
 	@echo ... cpp_test123
-	@echo ... file_read
 	@echo ... yunsuan
 	@echo ... exp_my_test
+	@echo ... rom_array_test
+	@echo ... rom_test
 	@echo ... file_struct_io
-	@echo ... file_write
 	@echo ... file_write2
+	@echo ... file_write
+	@echo ... file_read
+	@echo ... file_io_test
 	@echo ... abstract_test
 	@echo ... edit_cache
 	@echo ... package_test
@@ -1497,7 +1621,6 @@ help:
 	@echo ... reload_test
 	@echo ... extends_test
 	@echo ... class_test
-	@echo ... typeof_test
 	@echo ... mm
 	@echo ... Array_test
 	@echo ... structure_test
@@ -1601,6 +1724,15 @@ help:
 	@echo ... reload_test2.obj
 	@echo ... reload_test2.i
 	@echo ... reload_test2.s
+	@echo ... rom_array3_test.obj
+	@echo ... rom_array3_test.i
+	@echo ... rom_array3_test.s
+	@echo ... rom_array_test.obj
+	@echo ... rom_array_test.i
+	@echo ... rom_array_test.s
+	@echo ... rom_test.obj
+	@echo ... rom_test.i
+	@echo ... rom_test.s
 	@echo ... structure_test.obj
 	@echo ... structure_test.i
 	@echo ... structure_test.s

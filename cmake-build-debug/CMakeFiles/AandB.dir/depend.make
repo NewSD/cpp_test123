@@ -3,5 +3,5 @@
 
 CMakeFiles/AandB.dir/AandB.cpp.obj: ../AandB.cpp
 
-CMakeFiles/AandB.dir/exp_test.cpp.obj: ../exp_test.cpp
+CMakeFiles/AandB.dir/rom_test.cpp.obj: ../rom_test.cpp
 
