@@ -5,24 +5,27 @@
       <config projectName="cpp_test123" targetName="mm" />
       <config projectName="cpp_test123" targetName="file_io_test" />
       <config projectName="cpp_test123" targetName="extern_test" />
-      <config projectName="cpp_test123" targetName="yunsuan" />
       <config projectName="cpp_test123" targetName="char_test.cpp" />
+      <config projectName="cpp_test123" targetName="yunsuan" />
       <config projectName="cpp_test123" targetName="vector_test" />
       <config projectName="cpp_test123" targetName="loop_test" />
-      <config projectName="cpp_test123" targetName="impl_test" />
       <config projectName="cpp_test123" targetName="namespace_test2" />
+      <config projectName="cpp_test123" targetName="impl_test" />
       <config projectName="cpp_test123" targetName="point_test" />
       <config projectName="cpp_test123" targetName="time_test" />
       <config projectName="cpp_test123" targetName="file_struct_io" />
       <config projectName="cpp_test123" targetName="ref_test" />
-      <config projectName="cpp_test123" targetName="io_template" />
       <config projectName="cpp_test123" targetName="rom_object_test" />
+      <config projectName="cpp_test123" targetName="io_template" />
+      <config projectName="cpp_test123" targetName="csignal_test2" />
+      <config projectName="cpp_test123" targetName="define_test" />
       <config projectName="cpp_test123" targetName="template_test" />
       <config projectName="cpp_test123" targetName="file_read" />
       <config projectName="cpp_test123" targetName="AandB" />
+      <config projectName="cpp_test123" targetName="thread_test" />
       <config projectName="cpp_test123" targetName="data_abstract_test" />
-      <config projectName="cpp_test123" targetName="package_test" />
       <config projectName="cpp_test123" targetName="file_write2" />
+      <config projectName="cpp_test123" targetName="package_test" />
       <config projectName="cpp_test123" targetName="exp_test" />
       <config projectName="cpp_test123" targetName="rom_array3_test" />
       <config projectName="cpp_test123" targetName="io_test" />
@@ -32,9 +35,10 @@
       <config projectName="cpp_test123" targetName="exp_my_test" />
       <config projectName="cpp_test123" targetName="Cos_test" />
       <config projectName="cpp_test123" targetName="rom_array_test" />
+      <config projectName="cpp_test123" targetName="csignal_test" />
       <config projectName="cpp_test123" targetName="func_test" />
-      <config projectName="cpp_test123" targetName="typeof_test" />
       <config projectName="cpp_test123" targetName="namespace_test" />
+      <config projectName="cpp_test123" targetName="typeof_test" />
       <config projectName="cpp_test123" targetName="Lambda_test" />
       <config projectName="cpp_test123" targetName="reload_test" />
       <config projectName="cpp_test123" targetName="abstract_test" />
@@ -54,13 +58,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe03323d-3952-42fa-86f5-374c891d9268" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/vector_test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csignal_test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csignal_test2.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/define_test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread_test.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/data_abstract_test.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/data_abstract_test.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/exp_my_test.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/exp_my_test.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/exp_test.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/exp_test.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/extends_test.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/extends_test.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/extern_test.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/extern_test.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/file_io_test.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/file_io_test.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/file_read.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/file_read.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/file_struct_io.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/file_struct_io.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/file_write.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/file_write.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/file_write2.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/file_write2.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/func_test.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/func_test.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/impl_test.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/impl_test.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/io_template.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/io_template.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/io_test.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/io_test.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/loop_test.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/loop_test.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mm.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mm.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/namespace_test.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/namespace_test.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/namespace_test2.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/namespace_test2.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/package_test.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/package_test.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/point_test.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/point_test.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ref_test.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ref_test.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/reload_test.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/reload_test.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/reload_test2.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/reload_test2.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rom_array3_test.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rom_array3_test.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rom_array_test.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rom_array_test.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rom_object_test.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rom_object_test.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rom_test.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rom_test.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/structure_test.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/structure_test.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/template_class.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/template_class.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/template_test.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/template_test.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/time_test.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/time_test.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/typeof_test.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/typeof_test.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/vector_test.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/vector_test.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yunsuan.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/yunsuan.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/cpp_test123.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cpp_test123.cbp" afterDir="false" />
@@ -77,76 +118,60 @@
     <session id="729260799">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cpp" value="56" />
+          <entry key="cpp" value="60" />
           <entry key="dat" value="8" />
           <entry key="h" value="4" />
+          <entry key="p" value="1" />
           <entry key="txt" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CMakeLists.txt" value="2" />
-          <entry key="ObjectiveC" value="60" />
+          <entry key="ObjectiveC" value="65" />
           <entry key="PLAIN_TEXT" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="1821" />
+          <entry key="cpp" value="1852" />
           <entry key="dat" value="4" />
-          <entry key="txt" value="89" />
+          <entry key="txt" value="99" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CMakeLists.txt" value="89" />
-          <entry key="ObjectiveC" value="1821" />
+          <entry key="CMakeLists.txt" value="99" />
+          <entry key="ObjectiveC" value="1852" />
           <entry key="PLAIN_TEXT" value="4" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template_class.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1620">
-              <caret line="60" column="47" selection-start-line="60" selection-start-column="47" selection-end-line="60" selection-end-column="47" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-                <element signature="e#127#136#0" expanded="true" />
-                <element signature="e#402#411#0" expanded="true" />
-                <element signature="e#504#513#0" expanded="true" />
-                <element signature="e#676#685#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="108">
+              <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/vector_test.cpp">
+        <entry file="file://$PROJECT_DIR$/thread_test.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
-              <folding>
-                <element signature="e#39#58#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="174">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -204,8 +229,12 @@
         <option value="$PROJECT_DIR$/namespace_test2.cpp" />
         <option value="$PROJECT_DIR$/template_test.cpp" />
         <option value="$PROJECT_DIR$/template_class.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/vector_test.cpp" />
+        <option value="$PROJECT_DIR$/define_test.cpp" />
+        <option value="$PROJECT_DIR$/csignal_test.cpp" />
+        <option value="$PROJECT_DIR$/csignal_test2.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/thread_test.cpp" />
       </list>
     </option>
   </component>
@@ -229,7 +258,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -241,6 +269,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -268,7 +297,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.vector_test">
+  <component name="RunManager" selected="Application.thread_test">
     <configuration name="AandB" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cpp_test123" TARGET_NAME="AandB" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cpp_test123" RUN_TARGET_NAME="AandB">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -319,7 +348,22 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="csignal_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cpp_test123" TARGET_NAME="csignal_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cpp_test123" RUN_TARGET_NAME="csignal_test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="csignal_test2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cpp_test123" TARGET_NAME="csignal_test2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cpp_test123" RUN_TARGET_NAME="csignal_test2">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="data_abstract_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cpp_test123" TARGET_NAME="data_abstract_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cpp_test123" RUN_TARGET_NAME="data_abstract_test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="define_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cpp_test123" TARGET_NAME="define_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cpp_test123" RUN_TARGET_NAME="define_test">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -469,6 +513,11 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="thread_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cpp_test123" TARGET_NAME="thread_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cpp_test123" RUN_TARGET_NAME="thread_test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="time_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cpp_test123" TARGET_NAME="time_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cpp_test123" RUN_TARGET_NAME="time_test">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -498,7 +547,10 @@
       <item itemvalue="Application.class_test" />
       <item itemvalue="Application.Cos_test" />
       <item itemvalue="Application.cpp_test123" />
+      <item itemvalue="Application.csignal_test" />
+      <item itemvalue="Application.csignal_test2" />
       <item itemvalue="Application.data_abstract_test" />
+      <item itemvalue="Application.define_test" />
       <item itemvalue="Application.exp_my_test" />
       <item itemvalue="Application.exp_test" />
       <item itemvalue="Application.extends_test" />
@@ -530,6 +582,7 @@
       <item itemvalue="Application.structure_test" />
       <item itemvalue="Application.template_class" />
       <item itemvalue="Application.template_test" />
+      <item itemvalue="Application.thread_test" />
       <item itemvalue="Application.time_test" />
       <item itemvalue="Application.typeof_test" />
       <item itemvalue="Application.vector_test" />
@@ -546,19 +599,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559036981876</updated>
-      <workItem from="1559036983344" duration="20146000" />
+      <workItem from="1559036983344" duration="20230000" />
+      <workItem from="1559102813616" duration="1981000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20146000" />
+    <option name="totallyTimeSpent" value="22211000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1211" height="735" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.24978317" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.2541197" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32890365" />
@@ -567,7 +621,7 @@
       <window_info active="true" anchor="bottom" id="Messages" order="4" visible="true" weight="0.46179402" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.32890365" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.2707641" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.3156146" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="CMake" order="10" />
@@ -589,51 +643,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/loop_test.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="12" column="36" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/func_test.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lambda_test.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" selection-start-line="3" selection-end-line="7" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cos_test.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" selection-start-line="3" selection-end-line="10" selection-end-column="12" />
-          <folding>
-            <element signature="e#38#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Number_test.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" selection-start-line="4" selection-end-line="8" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Array_test.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="377">
           <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
-          <folding>
-            <element signature="e#38#57#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -641,9 +654,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
           <caret line="3" selection-start-line="3" selection-end-line="7" selection-end-column="11" />
-          <folding>
-            <element signature="e#38#57#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -651,9 +661,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="47" column="16" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
-          <folding>
-            <element signature="e#38#57#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -668,9 +675,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3672">
           <caret line="137" column="19" selection-start-line="137" selection-start-column="19" selection-end-line="137" selection-end-column="19" />
-          <folding>
-            <element signature="e#2651#2764#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -685,9 +689,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
           <caret line="3" selection-start-line="3" selection-end-line="8" selection-end-column="12" />
-          <folding>
-            <element signature="e#38#57#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -695,9 +696,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-120">
           <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-          <folding>
-            <element signature="e#40#59#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -705,9 +703,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="3" selection-start-line="3" selection-end-line="8" selection-end-column="12" />
-          <folding>
-            <element signature="e#39#58#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -715,9 +710,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-204">
           <caret line="3" selection-start-line="3" selection-end-line="5" selection-end-column="20" />
-          <folding>
-            <element signature="e#38#57#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -746,9 +738,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="39" selection-start-line="39" selection-end-line="39" />
-          <folding>
-            <element signature="e#38#57#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -756,9 +745,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="39">
           <caret line="13" column="15" lean-forward="true" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
-          <folding>
-            <element signature="e#38#57#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -766,9 +752,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1620">
           <caret line="66" column="33" selection-start-line="66" selection-start-column="28" selection-end-line="66" selection-end-column="33" />
-          <folding>
-            <element signature="e#39#58#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -800,12 +783,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/afile.dat">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/file.dat">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/afile.dat" />
+    <entry file="file://$PROJECT_DIR$/file.dat" />
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/afile.dat">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -823,9 +802,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="624">
           <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
-          <folding>
-            <element signature="e#39#58#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -847,9 +823,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-240">
           <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="30" />
-          <folding>
-            <element signature="e#87#106#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -860,9 +833,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/exp_test.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/exp_test.cpp" />
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/people.dat">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -884,9 +855,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="3" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -894,9 +862,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
           <caret line="22" column="13" selection-end-line="23" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -946,17 +911,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="702">
           <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-            <element signature="e#70#82#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -976,11 +930,58 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vector_test.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
+        <state relative-caret-position="783">
           <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
           <folding>
             <element signature="e#39#58#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.p">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/define_test.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" selection-start-line="3" selection-end-line="5" selection-end-column="20" />
+          <folding>
+            <element signature="e#309#358#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csignal_test2.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-54">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csignal_test.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="22" column="32" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="32" />
+          <folding>
+            <element signature="e#39#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread_test.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
         </state>
       </provider>
     </entry>
